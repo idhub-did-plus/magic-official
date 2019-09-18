@@ -1,0 +1,87 @@
+{
+	"lang": "中文",
+	"header": {
+		"nav":[
+			{
+				"name": "首页",
+				"link": "index.html"
+			},
+			{
+				"name": "服务",
+				"link": "-1-service.html"
+			},
+			{
+				"name": "团队",
+				"link": "-1-team.html"
+			},
+			{
+				"name": "新闻",
+				"link": "-1-news.html"
+			},
+			{
+				"name": "联系我们",
+				"link": "-1-contact-us.html"
+			},
+			{
+				"name": "博客",
+				"link": "https://medium.com/magic-circle"
+			}
+		],
+		"language": [
+			{
+				"name": "中文"
+			},
+			{
+				"name": "英文"
+			}
+		]
+		
+	},
+	"footer": {
+		"nav": [
+			{
+				"name": "主页",
+				"link": "index.html"
+			},
+			{
+				"name": "服务",
+				"link": "-1-service.html"
+			},
+			{
+				"name": "团队",
+				"link": "-1-team.html"
+			},
+			{
+				"name": "新闻",
+				"link": "-1-news.html"
+			},
+			{
+				"name": "联系我们",
+				"link": "-1-contact-us.html"
+			},
+			{
+				"name": "博客",
+				"link": "https://medium.com/magic-circle"
+			}
+		],
+		"links": {
+			"tit": "联系我们",
+			"desc": "地点：香港，北京，纽约，东京电子邮箱：contact@magic.exchange"
+		},
+		"contact": {
+			"tit": "Magic Circle",
+			"desc": "Magic Circle，一家利用区块链技术为加密金融世界提供基础设施和完整解决方案的创新型金融科技公司 "
+		}
+	},
+	"mTxtS2": {
+		"tip": "新",
+		"h1": "魔术圈提供此类服务",
+		"date": "2019-07-02",
+		"article": "<p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。通过投诉方式进行标记，现实世界的资产可以在全球基础上实现其真实的流动性和真正的价值。</p><br /><br /><span class='pic' style='margin: 2px 70px 9px 3px;'><img src='images/p-s2.jpg' alt=''></span><span class='pic' style='margin: 2px 70px 9px 0;'><img src='images/p-s2.jpg' alt=''></span><br /><br /><p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。通过投诉方式进行标记，现实世界的资产可以在全球基础上实现其真实的流动性和真正的价值。</p><br /><p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。通过投诉方式进行标记，真实世界的资产可以在全球基础上实现其真实的流动性和真正的价值.Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和可编程价值管理等服务。 STO平台。通过投诉方式进行标记，现实世界的资产可以在全球基础上实现其真实的流动性和真正的价值。</p><br /><p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。通过投诉方式进行标记，现实世界的资产可以在全球基础上实现其真实的流动性和真正的价值。</p>",
+		"pages": {
+			"prevTxt": "上一篇文章",
+			"nextTxt": "下一篇"
+		}
+		
+	}
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>-1-news</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/lib.js"></script>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/wow.min.js"></script>
+    <script src="js/vue.min.js"></script>
+</head>
+
+<body class="">
+	<div id="app" v-cloak :class="{'en': lang == 'en'}">
+		<!-- 头部 -->
+		<div class="header">
+			<div class="wp header-inner">
+				<div class="nav">
+					<ul>
+						<li 
+							v-for="(item,index) of content.header.nav"
+							:class="{'on': index == 3}"
+							:key="index"
+						>
+							<a class="v1" :href="item.link">{{ item.name }}</a>
+						</li>
+					</ul>
+					<div class="language">
+						<dl>
+							<dt>{{ content.lang }}</dt>
+							<dd>
+								<a 
+									href="javascript:;"
+									v-for="(item,index) of content.header.language"
+									:key="index"
+									@click="changeLanguage(index)"
+								>{{ item.name }}</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="logo">
+					<a href="">
+						<img src="images/logo.png" alt="" class="img1" />
+						<img src="images/logo2.png" alt="" class="img2" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- 头部 -->
+		<!-- 内容 -->
+		<div class="main">
+			<div class="wp">
+				<div class="row-a1-n">
+					<div class="m-top-s1">
+						<h2 class="g-tit-s1 wow fadeInUp" data-wow-delay=".3s">{{ content.mTopS1.h2 }}</h2>
+						<div class="r">
+							<a 
+								v-for="(item,index) of content.mTopS1.tab"
+								:key="index"
+								href="javascript:;"
+								:class="{'on': index == tab01}"
+								@click="tabClick(index)"
+							>{{ item.h2 }}</a>
+						</div>
+					</div>
+					<ul class="ul-imgtxt-s1">
+						<li 
+							v-for="(item,index) of content.mTopS1.list"
+							:key="index"
+							class="wow fadeInUp" 
+							:data-wow-delay="(0.3*(index + 1)) + 's'"
+						>
+							<a :href="item.link">
+								<div 
+									class="pic"
+									v-if="item.img.length"
+								>
+									<img :src="item.img" alt="">
+								</div>
+								<div class="txt">
+									<h3 class="tit">{{ item.tit }}</h3>
+									<div class="desc" v-html="item.desc"></div>
+									<em class="date">{{ item.date }}<i></i></em>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<div class="pages">
+						<ul>
+							<li><a href="">{{ content.pages.firstTxt }}</a></li>
+							<li><a href="">{{ content.pages.prevTxt }}</a></li>
+							<li class="on"><a href="">1</a></li>							
+							<li><a href="">2</a></li>
+							<li><a href="">{{ content.pages.nextTxt }}</a></li>
+							<li><a href="">{{ content.pages.lastTxt }}</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 内容 -->
+		
+		<!-- 底部 -->
+		<div class="footer">
+			<div class="box">
+				<div class="links">
+					<a 
+						v-for="(item,index) of content.footer.nav"
+						:href="item.link"
+					>{{ item.name }}</a>
+				</div>
+				<div class="contact">
+					<div class="txt t1">
+						<h3>{{ content.footer.links.tit }}</h3>
+						<p>{{ content.footer.links.desc }}</p>
+					</div>
+					<div class="txt t2">
+						<h3>{{ content.footer.contact.tit }}</h3>
+						<p>{{ content.footer.contact.desc }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部 -->
+		
+	</div>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript">
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+            new WOW().init();
+        };
+    </script>
+	<!-- 中英文切换代码 -->
+	<script src="js/news.js"></script>
+</body>
+
+</html>
