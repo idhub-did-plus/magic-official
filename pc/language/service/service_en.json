@@ -14,10 +14,7 @@
 				"name": "Team",
 				"link": "-1-team.html"
 			},
-			{
-				"name": "News",
-				"link": "-1-news.html"
-			},
+		
 			{
 				"name": "Contact Us",
 				"link": "-1-contact-us.html"
@@ -29,7 +26,7 @@
 		],
 		"language": [
 			{
-				"name": "Cn"
+				"name": "中文"
 			},
 			{
 				"name": "En"
@@ -51,26 +48,23 @@
 				"name": "Team",
 				"link": "-1-team.html"
 			},
-			{
-				"name": "News",
-				"link": "-1-news.html"
-			},
+			
 			{
 				"name": "Contact Us",
 				"link": "-1-contact-us.html"
 			},
 			{
-				"name": "BLOG",
+				"name": "Blog",
 				"link": "https://medium.com/magic-circle"
 			}
 		],
 		"links": {
-			"tit": "Contact us",
-			"desc": "Location: Hong Kong, Beijing, New York, Tokyo Email: contact@magic.exchange"
+			"tit": "Contact Us",
+			"desc": "Location: Hong Kong, Beijing, New York, Tokyo<br>Email: contact@magic.exchange"
 		},
 		"contact": {
 			"tit": "Magic Circle",
-			"desc": "Magic Circle, An innovative fintech company utilizing blockchain technology to provide infrastructure and complete solution to the crypto-finance world "
+			"desc": "An innovative fintech company utilizing blockchain technology to provide infrastructure and complete solution to the crypto-finance world "
 		}
 	},
 	"rowC1": {
@@ -79,11 +73,11 @@
 		
 	},
 	"rowC2": {
-		"h3": "Magic Cirlce Eco-map",
+		"h3": "Magic Circle Eco-map",
 		"img": "images/c_s.jpg"
 	},
 	"rowC3": {
-		"h2": "Magic Circle Solution and <br>Key technologies",
+		"h2": "Magic Circle Solution and Key Technologies",
 		"list": [
 			{
 				"img": "images/c_6.png",
@@ -95,13 +89,13 @@
 				"img": "images/c_7.png",
 				"h4": "Foundry",
 				"desc": "<p>Provide tokenization solution for ST</p><p>issuance platform</p>",
-				"info": "<p>ERC-1400 (Support R-token, ST 20 in the future</p><p>ST equity clearing</p>"
+				"info": "<p>ERC-1400 (Support R-token, ST 20 in the future)</p><p>Idhub whitelist</p>"
 			},
 			{
 				"img": "images/c_8.png",
 				"h4": "Magic Circle Marketplace",
 				"desc": "<p>24/7 decentralized ST exchange</p><p>platform</p>",
-				"info": "<p>Decentralized exchange based on 0x protocol</p><p>Auto order matching</p><p>24/7</p><p>No specific requirement of licenses</p>"
+				"info": "<p>Decentralized exchange based on 0x protocol</p><p>Auto order matching</p>"
 			}
 		]
 	}

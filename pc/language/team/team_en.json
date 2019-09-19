@@ -14,10 +14,7 @@
 				"name": "Team",
 				"link": "-1-team.html"
 			},
-			{
-				"name": "News",
-				"link": "-1-news.html"
-			},
+		
 			{
 				"name": "Contact Us",
 				"link": "-1-contact-us.html"
@@ -29,7 +26,7 @@
 		],
 		"language": [
 			{
-				"name": "Cn"
+				"name": "中文"
 			},
 			{
 				"name": "En"
@@ -51,31 +48,28 @@
 				"name": "Team",
 				"link": "-1-team.html"
 			},
-			{
-				"name": "News",
-				"link": "-1-news.html"
-			},
+		
 			{
 				"name": "Contact Us",
 				"link": "-1-contact-us.html"
 			},
 			{
-				"name": "BLOG",
+				"name": "Blog",
 				"link": "https://medium.com/magic-circle"
 			}
 		],
 		"links": {
-			"tit": "Contact us",
-			"desc": "Location: Hong Kong, Beijing, New York, Tokyo Email: contact@magic.exchange"
+			"tit": "Contact Us",
+			"desc": "Location: Hong Kong, Beijing, New York, Tokyo<br>Email: contact@magic.exchange"
 		},
 		"contact": {
 			"tit": "Magic Circle",
-			"desc": "Magic Circle, An innovative fintech company utilizing blockchain technology to provide infrastructure and complete solution to the crypto-finance world "
+			"desc": "An innovative fintech company utilizing blockchain technology to provide infrastructure and complete solution to the crypto-finance world "
 		}
 	},
 	"mTeam": {
-		"tit": "Our team",
-		"h3": "Core management",
+		"tit": "Our Team",
+		"h3": "Core Management",
 		"list": [
 			{
 				"img": "images/r1.png",
@@ -89,13 +83,13 @@
 			},
 			{
 				"img": "images/r3.png",
-				"name": "Doer Qu",
+				"name": "Dr.Yuqi Bai",
 				"info": "CTO"
 			},
 			{
 				"img": "images/r4.png",
-				"name": "Doer Qu",
-				"info": "CRO<br>Chief Financing Consultant"
+				"name": "Ben Wu",
+				"info": "Chief Financing Consultant"
 			}
 		]
 	},
@@ -103,20 +97,42 @@
 		"h3": "Core members",
 		"list": [
 			{
-				"img": "images/c_m1.png",
-				"name": "Doer Qu",
-				"job": "Technology R&D",
-				"img2": "images/c_mt1.png",
+				"img": "images/c_m11.png",
+				"name": "Chenjie Yuan",
+				"job": "Financing Consultant",
+				"img2": "images/c_mt11.png",
 				"detail": {
-					"name": "Doer Qu",
-					"desc": "To design a future that is unpredictable and nobody bets on",
-					"link": "https://www.linkedin.com/in/doer-qu-59a12852/"
+					"name": "Chenjie Yuan",
+					"desc": "",
+					"link": ""
+				}
+			},
+			{
+				"img": "images/c_m12.png",
+				"name": "Alex Martini",
+				"job": "Consultant",
+				"img2": "images/c_mt12.png",
+				"detail": {
+					"name": "Alex Martini",
+					"desc": "",
+					"link": "https://www.linkedin.com/in/alexmartini1/"
+				}
+			},
+			{
+				"img": "images/c_m13.png",
+				"name": "Gurpreet Oberoi",
+				"job": "Consultant",
+				"img2": "images/c_mt13.png",
+				"detail": {
+					"name": "Gurpreet Oberoi",
+					"desc": "",
+					"link": ""
 				}
 			},
 			{
 				"img": "images/c_m2.png",
-				"name": "Miranda Pan",
-				"job": "Operating and Complaince",
+				"name": "Merida Pan",
+				"job": "Operating&Complaince",
 				"img2": "images/c_mt2.png",
 				"detail": {
 					"name": "Merida Pan",
@@ -130,9 +146,20 @@
 				"job": "Business Development",
 				"img2": "images/c_mt4.png",
 				"detail": {
-					"name": "Cecilia Wu吴茜",
-					"desc": "我们若彼此相爱，神就住在我们里面，爱他的心在我们里面得以完全了。If we love one another, God lives in us, and His love is perfected in us.",
-					"link": "www.linkedin.com/in/cecilia2019"
+					"name": "Cecilia Wu",
+					"desc": "If we love one another, God lives in us, and His love is perfected in us.",
+					"link": "https://www.linkedin.com/in/cecilia2019"
+				}
+			},
+			{
+				"img": "images/c_m10.png",
+				"name": "Michael Wang",
+				"job": "Business Developmnt",
+				"img2": "images/c_mt10.png",
+				"detail": {
+					"name": "Michael Wang",
+					"desc": "It is not our abilities that show what we truly are,it is our choices between what is easy or right. ",
+					"link": "https://www.linkedin.com/in/%E6%B2%9B%E6%99%BA-%E7%8E%8B-56564582/"
 				}
 			},
 			{
@@ -141,8 +168,8 @@
 				"job": "Business Development",
 				"img2": "images/c_mt5.png",
 				"detail": {
-					"name": "Derek Xue 薛玉成",
-					"desc": "生命因残缺而完美Life is splendid due to incompleteness",
+					"name": "Derek Xue",
+					"desc": "Life is splendid due to incompleteness",
 					"link": "https://www.linkedin.com/in/derek-xue-9b82b5100"
 				}
 			},
@@ -152,19 +179,19 @@
 				"job": "Technology R&D",
 				"img2": "images/c_mt6.png",
 				"detail": {
-					"name": "Iris Xiang项钰程",
-					"desc": "Cleverness is a gift while kindness is a choice. 聪明是一种天赋，而善良是一种选择。",
+					"name": "Iris Xiang",
+					"desc": "Cleverness is a gift while kindness is a choice.",
 					"link": "https://www.linkedin.com/in/doer-qu-59a12852/"
 				}
 			},
 			{
 				"img": "images/c_m7.png",
-				"name": "Zaakin",
+				"name": "Zaakin Yao",
 				"job": "Technology R&D",
 				"img2": "images/c_mt7.png",
 				"detail": {
-					"name": "Zaakin 姚泽乾",
-					"desc": "Code is law 代码即法律",
+					"name": "Zaakin Yao",
+					"desc": "Code is law",
 					"link": "https://www.linkedin.com/in/%E6%B3%BD%E4%B9%BE-%E5%A7%9A-aaa865190/"
 				}
 			},
@@ -174,9 +201,9 @@
 				"job": "Technology R&D",
 				"img2": "images/c_mt8.png",
 				"detail": {
-					"name": "Christopher Liu刘磊",
-					"desc": "万物皆有裂痕，那是光进来的地方<br>There is a crack in everything. That's how the light gets in",
-					"link": "www.linkedin.com/in/yupeng-liu"
+					"name": "Christopher Liu",
+					"desc": "There is a crack in everything. That's how the light gets in",
+					"link": "https://www.linkedin.com/in/yupeng-liu"
 				}
 			},
 			{
@@ -185,12 +212,11 @@
 				"job": "Technology R&D",
 				"img2": "images/c_mt9.png",
 				"detail": {
-					"name": "Jiaqi Li李嘉淇",
-					"desc": "我走得很慢，但是我从来不会后退。<br>I walked slowly, but I never retreat.",
+					"name": "Jiaqi Li",
+					"desc": "I walked slowly, but I never retreat.",
 					"link": "https://www.linkedin.com/in/%E5%98%89%E6%B7%87-%E6%9D%8E-266229189/"
 				}
 			}
-			
 		]
 	}
 }

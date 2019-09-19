@@ -24,7 +24,7 @@ var index = new Vue({
 			});
 			$(".banner .slick-dots li").each(function() {
 				var ss = $(this).find("button").html();
-				var txt = "No" + ss;
+				var txt = " ";
 				$(this).find("button").html(txt);
 			});
 		});

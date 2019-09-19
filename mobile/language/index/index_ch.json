@@ -14,10 +14,7 @@
 				"name": "团队",
 				"link": "-1-team.html"
 			},
-			{
-				"name": "新闻",
-				"link": "-1-news.html"
-			},
+		
 			{
 				"name": "联系我们",
 				"link": "-1-contact-us.html"
@@ -32,7 +29,7 @@
 				"name": "中文"
 			},
 			{
-				"name": "英文"
+				"name": "En"
 			}
 		]
 		
@@ -51,10 +48,7 @@
 				"name": "团队",
 				"link": "-1-team.html"
 			},
-			{
-				"name": "新闻",
-				"link": "-1-news.html"
-			},
+			
 			{
 				"name": "联系我们",
 				"link": "-1-contact-us.html"
@@ -66,60 +60,60 @@
 		],
 		"links": {
 			"tit": "联系我们",
-			"desc": "地点：香港，北京，纽约，东京电子邮箱：contact@magic.exchange"
+			"desc": "地点：香港，北京，纽约，东京<br>电子邮箱：contact@magic.exchange"
 		},
 		"contact": {
 			"tit": "Magic Circle",
-			"desc": "Magic Circle，一家利用区块链技术为加密金融世界提供基础设施和完整解决方案的创新型金融科技公司 "
+			"desc": "一家利用区块链技术为加密金融世界提供基础设施和完整解决方案的创新型金融科技公司 "
 		}
 	},
 	"banner": [
 		{
 			"link": "",
-			"icon": "images/banner1.png"
+			"icon": "images/banner1-cn.png"
 		},
 		{
 			"link": "",
-			"icon": "images/banner2.png"
+			"icon": "images/banner2-cn.png"
 		},
 		{
 			"link": "",
-			"icon": "images/banner3.png"
+			"icon": "images/banner3-cn.png"
 		}
 	],
 	"mTxtS1": {
 		"txt1": {
-			"em": "为什么是sto",
-			"tit": "Secuity Token Offering"
+			"em": "为什么要 STO",
+			"tit": "Security Token Offering"
 		},
 		"txt2": {
 			"span": "STO",
-			"desc": "<p>证券代币是由真实资产（如股票、债券、房地产、艺术品、私募股权，甚至汽车）支持的可调节数字资产。</p><p>通过区块链和智能合约，诸如自动合规、部分所有权、免费全球公开和非中介化等功能能够获得令人难以置信的流动性。</p>"
+			"desc": "<p>ST是有现实资产背书的数字资产（股权、债权、房地产、艺术品等）。</p><p>通过区块链和智能合约，资产的自动合规、共享所有权、全球自由曝光、去中介化的属性被充分激活，使资产获得了极大的流动性。</p>"
 		}
 	},
 	"mVideoS1": {
 		"video": "video/video1.mp4", 
 		"tit": "Magic Circle",
-		"desc": "解锁市场并释放<br>实际流动性",
+		"desc": "解锁市场流动性",
 		"more": "了解更多"
 	},
 	"row1": {
 		"left": {
 			"tit": "为什么选择",
-			"en": "Magic Cirle",
-			"desc": "<p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。通过投诉方式进行标记，现实世界的资产可以在全球基础上实现其真实的流动性和真正的价值。</p>",
-			"more": "加入我们"
+			"en": "Magic Circle",
+			"desc": "<p>Magic Circle为全球数字证券发行平台提供统一的身份验证入口、合规的通证化技术平台、流动的数字资产交易市场以及可编程的价值自主管理模式。通过对现实世界各类资产进行通证化、合规发行和交易，实现资产在全球的自由流动和价值实现。</p>",
+			"more": "联系我们"
 		},
 		"list": [
 			{
 				"img": "images/h-2.png",
 				"h3": "投资者",
-				"desc": "<p>一次性身份验证</p><p>便携式数字资产</p><p>非中介</p><p>提高结算效率 </p><p>24/7分散市场</p>"
+				"desc": "<p>一次性合规验证</p><p>可携带式数字资产</p><p>去中心化交易模式</p><p>提升交易结算效率 </p><p>24/7不间断交易机制</p>"
 			},
 			{
 				"img": "images/h-3.png",
-				"h3": "分销平台",
-				"desc": "<p>吸引更多全球投资者</p><p>获得全球资本</p><p>释放资产的流动性</p><p>降低交易和合规成本</p><p>创造充满活力的二级交易</p>"
+				"h3": "平台",
+				"desc": "<p>吸引更多全球投资者</p><p>触及更全球化的资本渠道</p><p>全面解锁资产流动性</p><p>降低交易及合规成本</p><p>提升二级交易活跃度</p>"
 			}
 		] 
 	},
@@ -131,19 +125,19 @@
 		"list": [
 			{
 				"img": "images/h-6.png",
-				"h3": "IDHub基金会"
+				"h3": "IDHub Foundion"
 			},
 			{
 				"img": "images/h-7.png",
-				"h3": "阿特拉斯基金"
+				"h3": "Atlas Fund l"
 			},
 			{
 				"img": "images/h-8.png",
-				"h3": "米戈"
+				"h3": "MyGo"
 			},
 			{
 				"img": "images/h-9.png",
-				"h3": "CryptoFin实验室"
+				"h3": "CryptoFin Lab"
 			}
 		]
 	}
