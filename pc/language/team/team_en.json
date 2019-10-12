@@ -114,6 +114,39 @@
 				}
 			},
 			{
+				"img": "images/c_m11.jpg",
+				"name": "Frenk Yuan",
+				"job": "Financing Consultant",
+				"img2": "images/c_mt11.jpg",
+				"detail": {
+					"name": "Frenk Yuan",
+					"desc": "",
+					"link": ""
+				}
+			},
+			{
+				"img": "images/c_m12.jpg",
+				"name": "Alex Martini",
+				"job": "Consultant",
+				"img2": "images/c_mt12.jpg",
+				"detail": {
+					"name": "Alex Martini",
+					"desc": "",
+					"link": "https://www.linkedin.com/in/alexmartini1/ "
+				}
+			},
+			{
+				"img": "images/c_m13.jpg",
+				"name": "Gurpreet Oberoi",
+				"job": "Consultant",
+				"img2": "images/c_mt13.jpg",
+				"detail": {
+					"name": "Gurpreet Oberoi",
+					"desc": "",
+					"link": ""
+				}
+			},
+			{
 				"img": "images/c_m2.png",
 				"name": "Miranda Pan",
 				"job": "Operating and Complaince",
@@ -199,39 +232,6 @@
 					"name": "Michael Wang",
 					"desc": "It is not our abilities that show what we truly are,it is our choices between what is easy or right.",
 					"link": "https://www.linkedin.com/in/%E6%B2%9B%E6%99%BA-%E7%8E%8B-56564582/"
-				}
-			},
-			{
-				"img": "images/c_m11.jpg",
-				"name": "Frenk Yuan",
-				"job": "Financing Consultant",
-				"img2": "images/c_mt11.jpg",
-				"detail": {
-					"name": "Frenk Yuan",
-					"desc": "",
-					"link": ""
-				}
-			},
-			{
-				"img": "images/c_m12.jpg",
-				"name": "Alex Martini",
-				"job": "Consultant",
-				"img2": "images/c_mt12.jpg",
-				"detail": {
-					"name": "Alex Martini",
-					"desc": "",
-					"link": "https://www.linkedin.com/in/alexmartini1/ "
-				}
-			},
-			{
-				"img": "images/c_m13.jpg",
-				"name": "Gurpreet Oberoi",
-				"job": "Consultant",
-				"img2": "images/c_mt13.jpg",
-				"detail": {
-					"name": "Gurpreet Oberoi",
-					"desc": "",
-					"link": ""
 				}
 			}
 			
