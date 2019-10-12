@@ -109,8 +109,8 @@
 	},
 	"row1": {
 		"left": {
-			"tit": "Why <span>Magic Cirle</span>",
-			"en": "Magic Cirle",
+			"tit": "Why <span>Magic Circle</span>",
+			"en": "Magic Circle",
 			"desc": "<p>Magic Circle provides services such as unified Identity Authentication access, compliant tokenization platform, fully-liquid digital assets marketplace and programmable value management for STO platform. Via tokenizing in a complaint way, real-world assets can realize its real liquidity and true value in a global base.</p>",
 			"more": "Join us"
 		},

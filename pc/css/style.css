@@ -3125,6 +3125,9 @@ input::-webkit-outer-spin-button {
 /* m-members end */
 
 @media only screen and (max-width:1500px) {
+	.m-iconList01 .item{
+		margin-right: 55px;
+	}
 	.ul-list_b{
 		margin: 0 auto;
 	}
