@@ -2893,3 +2893,10 @@ body{
 /* ban-news end */
 /* 首页 end */
 /* 191010 修改 end */
+@media only screen and (max-width:320px) {
+	.m-iconList01 .item{
+		margin-bottom: 5px;
+		margin-right: 22px;
+	}
+	
+}
