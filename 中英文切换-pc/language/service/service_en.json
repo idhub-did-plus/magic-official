@@ -1,0 +1,109 @@
+{
+	"lang": "En",
+	"header": {
+		"nav":[
+			{
+				"name": "Home",
+				"link": "index.html"
+			},
+			{
+				"name": "Service",
+				"link": "-1-service.html"
+			},
+			{
+				"name": "Team",
+				"link": "-1-team.html"
+			},
+			{
+				"name": "News",
+				"link": "-1-news.html"
+			},
+			{
+				"name": "Contact Us",
+				"link": "-1-contact-us.html"
+			},
+			{
+				"name": "Blog",
+				"link": "https://medium.com/magic-circle"
+			}
+		],
+		"language": [
+			{
+				"name": "Cn"
+			},
+			{
+				"name": "En"
+			}
+		]
+		
+	},
+	"footer": {
+		"nav": [
+			{
+				"name": "Home",
+				"link": "index.html"
+			},
+			{
+				"name": "Service",
+				"link": "-1-service.html"
+			},
+			{
+				"name": "Team",
+				"link": "-1-team.html"
+			},
+			{
+				"name": "News",
+				"link": "-1-news.html"
+			},
+			{
+				"name": "Contact Us",
+				"link": "-1-contact-us.html"
+			},
+			{
+				"name": "BLOG",
+				"link": "https://medium.com/magic-circle"
+			}
+		],
+		"links": {
+			"tit": "Contact us",
+			"desc": "Location: Hong Kong, Beijing, New York, Tokyo Email: contact@magic.exchange"
+		},
+		"contact": {
+			"tit": "HongKong • Beijing • NewYork • Tokyo ",
+			"desc": "Contact Us：contact@magic.exchange"
+		}
+	},
+	"rowC1": {
+		"em": "M",
+		"en": "agic Circle has three major functional modules, including blockchian-based identity verification, tokenization, and decentralized exchange. We can provide not only basic services such as investors KYC/AML/CTF check, accredited investors verification, digital assets management, assets auditing, but also advanced services including but not limited to open-source tokenization protocol, compatible ST smart contract template, portable assets. The mission of Magic Circle is to providing true liquidity. <br> <br> Except the enhanced functions, Magic Circle will also be the platform integrating third party service providers, such as data services provider, legal institute, assets custody, which to large extent would further facilitate the compliance during the whole process."
+		
+	},
+	"rowC2": {
+		"h3": "Magic Cirlce Eco-map",
+		"img": "images/c_s.jpg"
+	},
+	"rowC3": {
+		"h2": "Solution and Key technologies",
+		"list": [
+			{
+				"img": "images/c_6.png",
+				"h4": "DID Plus",
+				"desc": "<p>Generate DID, managing identity data; complete</p><p>accredited investor one-time verification, login to third</p><p>parties platforms without repeating verification process.</p>",
+				"info": "<p>Decentralized identity based on Ethereum smart contract</p><p>On-chain authorization</p><p>KYC/AML whitelist</p>"
+			},
+			{
+				"img": "images/c_7.png",
+				"h4": "Foundry",
+				"desc": "<p>Provide tokenization solution for ST</p><p>issuance platform</p>",
+				"info": "<p>ERC-1400</p><p>(Support R-token, ST 20 in the future)</p><p>IDHub whitelist</p>"
+			},
+			{
+				"img": "images/c_8.png",
+				"h4": "Magic Circle Marketplace",
+				"desc": "<p>24/7 decentralized ST exchange</p><p>platform</p>",
+				"info": "<p>Decentralized exchange based on 0x protocol</p><p>Auto order matching</p><p>24/7</p><p>No specific requirement of licenses</p>"
+			}
+		]
+	}
+	
+}

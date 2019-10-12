@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>-1-news-copy</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="js/lib.js"></script>
+</head>
+
+<body class="">
+	<div id="app" v-cloak :class="{'en': lang == 'en'}">
+		<!-- 头部 -->
+		<div class="header">
+			<div class="wp2">
+				<span class="menuBtn"></span>
+				<div class="nav">
+					<ul>
+						<li 
+							v-for="(item,index) of content.header.nav"
+							:class="{'on': index == 3}"
+							:key="index"
+						>
+							<a class="v1" :href="item.link">{{ item.name }}</a>
+						</li>
+					</ul>
+					<div class="language">
+						<dl>
+							<dt>{{ content.lang }}</dt>
+							<dd>
+								<a 
+									href="javascript:;"
+									v-for="(item,index) of content.header.language"
+									:key="index"
+									@click="changeLanguage(index)"
+								>{{ item.name }}</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="logo">
+					<a href="">
+						<img src="images/logo.png" alt="" class="img1" />
+						<p>Magic Circle</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- 头部 -->
+		<!-- 内容 -->
+		<div class="main">
+			<div class="m-txt-s2">
+				<div class="wp">
+					<span class="g-label-s1">{{ content.mTxtS2.tip }}</span>
+					<h1 class="g-tit-s1">{{ content.mTxtS2.h1 }}</h1>
+						<div class="info"><em class="g-date-s1">{{ content.mTxtS2.date }}</em></div>
+						<div class="txt" v-html="content.mTxtS2.article">
+						</div>
+						<div class="arrows">
+							<a href="" class="prev">{{ content.mTxtS2.pages.prevTxt }}<i></i></a>
+							<a href="" class="next">{{ content.mTxtS2.pages.nextTxt }}<i></i></a>
+						</div>
+						<!--            <div class="arrows">
+					<a href="" class="prev s1">Last article<i></i></a>
+					<a href="" class="next s1">Next<i></i></a>
+				</div> -->
+				</div>
+			</div>
+		</div>
+		<!-- 内容 -->
+		<!-- 底部 -->
+		<!-- <div class="footer">
+			<div class="box">
+				<div class="fd-link">
+					<a href="" class="item s1"></a>
+					<a href="" class="item s2"></a>
+					<a href="" class="item s3"></a>
+					<a href="" class="item s4"></a>
+				</div>
+				<div class="links">
+					<a 
+						v-for="(item,index) of content.footer.nav"
+						:href="item.link"
+					>{{ item.name }}</a>
+				</div>
+				<div class="contact">
+					<div class="txt t1">
+						<h3>{{ content.footer.links.tit }}</h3>
+						<p>{{ content.footer.links.desc }}</p>
+					</div>
+					<div class="txt t2">
+						<h3>{{ content.footer.contact.tit }}</h3>
+						<p>{{ content.footer.contact.desc }}</p>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="footer">
+			<div class="wp">
+				<div class="left">
+					<div class="fd-logo">Magic Circle</div>
+					<div class="copyright">© Magic circle. ALL RIGHTS RESERVED</div>
+					<div class="f-share01">
+						<a href="" class="a1"></a>
+						<a href="" class="a2"></a>
+						<a href="" class="a3"></a>
+						<a href="" class="a4"></a>
+					</div>
+				</div>
+				<div class="right">
+					<div class="fd-contact">
+						<p>{{ content.footer.contact.tit }}</p>
+						<p class="contact">{{ content.footer.contact.desc }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部 -->
+	</div>
+	<!-- 中英文切换代码 -->
+	<script src="js/newsCopy.js"></script>
+</body>
