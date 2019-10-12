@@ -16,6 +16,8 @@ var index = new Vue({
 		
 		this.$nextTick(function(){
 			$('.banner .slider-nav').slick({
+				speed: 2000,
+				autoplaySpeed: 4000,
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				dots: true,
