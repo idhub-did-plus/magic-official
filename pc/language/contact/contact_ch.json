@@ -32,7 +32,7 @@
 				"name": "中文"
 			},
 			{
-				"name": "En"
+				"name": "英文"
 			}
 		]
 		
@@ -51,7 +51,10 @@
 				"name": "团队",
 				"link": "-1-team.html"
 			},
-		
+			{
+				"name": "新闻",
+				"link": "-1-news.html"
+			},
 			{
 				"name": "联系我们",
 				"link": "-1-contact-us.html"
@@ -63,27 +66,27 @@
 		],
 		"links": {
 			"tit": "联系我们",
-			"desc": "地点：香港，北京，纽约，东京<br>电子邮箱：contact@magic.exchange"
+			"desc": "地点：香港，北京，纽约，东京电子邮箱：contact@magic.exchange"
 		},
 		"contact": {
-			"tit": "Magic Circle",
-			"desc": "一家利用区块链技术为加密金融世界提供基础设施和完整解决方案的创新型金融科技公司 "
+			"tit": "香港 • 北京 • 纽约 • 东京",
+			"desc": "电子邮箱：contact@magic.exchange"
 		}
 	},
 	"mContact": {
-		"h2": "欲进一步获取更多信息或有任何疑问，请及时联系我们",
+		"h2": "联系我们获取更多信息,我们会及时与您联系！",
 		"name": "姓名",
-		"email": "邮箱",
-		"tel":"联系电话",
-		"organ":"所属机构/组织/公司",
+		"email": "电子邮件",
+		"tel":"电话",
+		"organ":"组织",
 		"interest": {
-			"tit": "联系意向",
+			"tit": "有兴趣",
 			"list": [
-				{"value":"Business cooperation","content":"商务合作"},
-				{"value":"Technology cooperation","content":"技术合作"},
-				{"value":"Becoming our client","content":"成为客户"},
-				{"value":"Investing in Magic Circle","content":"成为投资人"},
-				{"value":"Learning more","content":"了解更多信息"}
+				"商务合作",
+				"技术合作",
+				"成为我们的客户",
+				"投资魔术圈",
+				"了解更多"
 			]
 		},
 		"other":"附加信息",

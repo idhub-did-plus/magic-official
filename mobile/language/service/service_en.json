@@ -14,7 +14,10 @@
 				"name": "Team",
 				"link": "-1-team.html"
 			},
-		
+			{
+				"name": "News",
+				"link": "-1-news.html"
+			},
 			{
 				"name": "Contact Us",
 				"link": "-1-contact-us.html"
@@ -26,7 +29,7 @@
 		],
 		"language": [
 			{
-				"name": "中文"
+				"name": "Cn"
 			},
 			{
 				"name": "En"
@@ -48,36 +51,39 @@
 				"name": "Team",
 				"link": "-1-team.html"
 			},
-		
+			{
+				"name": "News",
+				"link": "-1-news.html"
+			},
 			{
 				"name": "Contact Us",
 				"link": "-1-contact-us.html"
 			},
 			{
-				"name": "Blog",
+				"name": "BLOG",
 				"link": "https://medium.com/magic-circle"
 			}
 		],
 		"links": {
-			"tit": "Contact Us",
-			"desc": "Location: Hong Kong, Beijing, New York, Tokyo<br>Email: contact@magic.exchange"
+			"tit": "Contact us",
+			"desc": "Location: Hong Kong, Beijing, New York, Tokyo Email: contact@magic.exchange"
 		},
 		"contact": {
-			"tit": "Magic Circle",
-			"desc": "An innovative fintech company utilizing blockchain technology to provide infrastructure and complete solution to the crypto-finance world "
+			"tit": "HongKong • Beijing • NewYork • Tokyo ",
+			"desc": "Contact Us：contact@magic.exchange"
 		}
 	},
 	"rowC1": {
 		"em": "M",
-		"en": "<span>agic Circle</span> has three major functional modules, including blockchian-based identity verification, tokenization, and decentralized exchange. We can provide not only basic services such as investors KYC/AML/CTF check, accredited investors verification, digital assets management, assets auditing, but also advanced services including but not limited to open-source tokenization protocol, compatible ST smart contract template, portable assets. The mission of Magic Circle is to providing true liquidity. <br> <br> Except the enhanced functions, Magic Circle will also be the platform integrating third party service providers, such as data services provider, legal institute, assets custody, which to large extent would further facilitate the compliance during the whole process."
+		"en": "agic Circle has three major functional modules, including blockchian-based identity verification, tokenization, and decentralized exchange. We can provide not only basic services such as investors KYC/AML/CTF check, accredited investors verification, digital assets management, assets auditing, but also advanced services including but not limited to open-source tokenization protocol, compatible ST smart contract template, portable assets. The mission of Magic Circle is to providing true liquidity. <br> <br> Except the enhanced functions, Magic Circle will also be the platform integrating third party service providers, such as data services provider, legal institute, assets custody, which to large extent would further facilitate the compliance during the whole process."
 		
 	},
 	"rowC2": {
-		"h3": "Magic Circle Eco-map",
+		"h3": "Magic Cirlce Eco-map",
 		"img": "images/c_s.jpg"
 	},
 	"rowC3": {
-		"h2": "Magic Circle Solution and Key Technologies",
+		"h2": "Solution and Key technologies",
 		"list": [
 			{
 				"img": "images/c_6.png",
@@ -89,13 +95,13 @@
 				"img": "images/c_7.png",
 				"h4": "Foundry",
 				"desc": "<p>Provide tokenization solution for ST</p><p>issuance platform</p>",
-				"info": "<p>ERC-1400 (Support R-token, ST 20 in the future)</p><p>Idhub whitelist</p>"
+				"info": "<p>ERC-1400 (Support R-token, ST 20 in the future</p><p>ST equity clearing</p>"
 			},
 			{
 				"img": "images/c_8.png",
 				"h4": "Magic Circle Marketplace",
 				"desc": "<p>24/7 decentralized ST exchange</p><p>platform</p>",
-				"info": "<p>Decentralized exchange based on 0x protocol</p><p>Auto order matching</p>"
+				"info": "<p>Decentralized exchange based on 0x protocol</p><p>Auto order matching</p><p>24/7</p><p>No specific requirement of licenses</p>"
 			}
 		]
 	}

@@ -14,7 +14,10 @@
 				"name": "团队",
 				"link": "-1-team.html"
 			},
-		
+			{
+				"name": "新闻",
+				"link": "-1-news.html"
+			},
 			{
 				"name": "联系我们",
 				"link": "-1-contact-us.html"
@@ -29,7 +32,7 @@
 				"name": "中文"
 			},
 			{
-				"name": "En"
+				"name": "英文"
 			}
 		]
 		
@@ -48,7 +51,10 @@
 				"name": "团队",
 				"link": "-1-team.html"
 			},
-		
+			{
+				"name": "新闻",
+				"link": "-1-news.html"
+			},
 			{
 				"name": "联系我们",
 				"link": "-1-contact-us.html"
@@ -60,11 +66,11 @@
 		],
 		"links": {
 			"tit": "联系我们",
-			"desc": "地点：香港，北京，纽约，东京<br>电子邮箱：contact@magic.exchange"
+			"desc": "地点：香港，北京，纽约，东京电子邮箱：contact@magic.exchange"
 		},
 		"contact": {
-			"tit": "Magic Circle",
-			"desc": "一家利用区块链技术为加密金融世界提供基础设施和完整解决方案的创新型金融科技公司 "
+			"tit": "香港 • 北京 • 纽约 • 东京",
+			"desc": "电子邮箱：contact@magic.exchange"
 		}
 	},
 	"mTxtS2": {

@@ -3,7 +3,13 @@ var index = new Vue({
 	data: function(){
 		return {
 			lang: "ch",
-			content: {}
+			content: {},
+			list2: {
+				// 初始化数量
+				num: 4,
+				// 每次递增
+				add: 2
+			}
 		}
 	},
 	mounted: function() {
@@ -14,15 +20,20 @@ var index = new Vue({
 		}
 		this.getData();
 		
-		this.$nextTick(function(){
+		// this.$nextTick(function(){
 			
-			$('.m-members .slider').slick({
-				dots: false,
-				arrows: true,
-				autoplay: true,
-				slidesToShow: 4,
-			});
-		});
+		// 	$('.m-members .slider').slick({
+		// 		dots: false,
+		// 		arrows: true,
+		// 		autoplay: true,
+		// 		slidesToShow: 4,
+		// 	});
+		// });
+	},
+	computed: {
+		getList2: function(){
+			return this.content.rowB2.list.slice(0,this.list2.num);
+		}
 	},
 	methods: {
 		// 切换语言
@@ -31,6 +42,13 @@ var index = new Vue({
 			this.lang = list[index];
 			this.getData();
 			localStorage.setItem('save_language',this.lang);
+		},
+		getMore: function() {
+			console.log(this.content.rowB2.list.length);
+			this.list2.num += this.list2.add;
+			if(this.list2.num >= this.content.rowB2.list.length){
+				this.list2.num = this.content.rowB2.list.length;
+			}
 		},
 		// 获取语言包
 		getData: function (){

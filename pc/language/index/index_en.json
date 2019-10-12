@@ -14,7 +14,10 @@
 				"name": "Team",
 				"link": "-1-team.html"
 			},
-		
+			{
+				"name": "News",
+				"link": "-1-news.html"
+			},
 			{
 				"name": "Contact Us",
 				"link": "-1-contact-us.html"
@@ -26,7 +29,7 @@
 		],
 		"language": [
 			{
-				"name": "中文"
+				"name": "Cn"
 			},
 			{
 				"name": "En"
@@ -48,61 +51,68 @@
 				"name": "Team",
 				"link": "-1-team.html"
 			},
-		
+			{
+				"name": "News",
+				"link": "-1-news.html"
+			},
 			{
 				"name": "Contact Us",
 				"link": "-1-contact-us.html"
 			},
 			{
-				"name": "Blog",
+				"name": "BLOG",
 				"link": "https://medium.com/magic-circle"
 			}
 		],
 		"links": {
-			"tit": "Contact Us",
-			"desc": "Location: Hong Kong, Beijing, New York, Tokyo<br>Email: contact@magic.exchange"
+			"tit": "Contact us",
+			"desc": "Location: Hong Kong, Beijing, New York, Tokyo Email: contact@magic.exchange"
 		},
 		"contact": {
-			"tit": "Magic Circle",
-			"desc": "An innovative fintech company utilizing blockchain technology to provide infrastructure and complete solution to the crypto-finance world "
+			"tit": "HongKong • Beijing • NewYork • Tokyo ",
+			"desc": "Contact Us：contact@magic.exchange"
 		}
+	},
+	"bannerTxt": {
+		"link": "",
+		"h3": "Magic Circle",
+		"desc": "Magic Circle provides services such as unified Identity Authentication access, compliant tokenization platform, fully-liquid digital assets marketplace and programmable value management for STO platform. Via tokenizing in a complaint way, real-world assets can realize its real liquidity and true value in a global base."
+		
 	},
 	"banner": [
 		{
-			"link": "",
-			"icon": "images/banner1-en.png"
+			"icon": "images/bg-01.png"
 		},
 		{
-			"link": "",
-			"icon": "images/banner2-en.png"
+			"icon": "images/bg-02.png"
 		},
 		{
-			"link": "",
-			"icon": "images/banner3-en.png"
+			"icon": "images/bg-03.png"
 		}
 	],
+	"bannerMore": "Learn more",
 	"mTxtS1": {
 		"txt1": {
-			"em": "Why STO",
+			"em": "why sto",
 			"tit": "Security<br />Token<br />Offering"
 		},
 		"txt2": {
 			"span": "STO",
-			"desc": "<p>Security tokens are regulated digital assets backed by real-life assets (e.g. stocks, bonds, real estate, art, private equity, or even cars).</p><p>Via blockchain and smart contracts, features such as auto compliance, fractional ownership, free global explosure, and disintermediation are enabled to attain an incredible degree of liquidity.</p>"
+			"desc": "<p>Security tokens are egulated digital assets backed by real-life assets (e.g. stocks, bonds, real estate, art, private equity, or even cars).Via blockchain and smart contracts, features such as auto compliance, fractional ownership, free global explosure, and disintermediation are enabled to attain an incredible degree of liquidity.</p>"
 		}
 	},
 	"mVideoS1": {
 		"video": "video/video1.mp4", 
 		"tit": "Magic Circle",
-		"desc": "Unlock Market and Release Real Liquidity",
+		"desc": "Unlock Market and <br />Release Real Liquidity",
 		"more": "Learn more"
 	},
 	"row1": {
 		"left": {
-			"tit": "Why Choose",
-			"en": "Magic Circle",
+			"tit": "Why <span>Magic Cirle</span>",
+			"en": "Magic Cirle",
 			"desc": "<p>Magic Circle provides services such as unified Identity Authentication access, compliant tokenization platform, fully-liquid digital assets marketplace and programmable value management for STO platform. Via tokenizing in a complaint way, real-world assets can realize its real liquidity and true value in a global base.</p>",
-			"more": "Contact us"
+			"more": "Join us"
 		},
 		"list": [
 			{
@@ -119,7 +129,7 @@
 	},
 	"row2": {
 		"h3": "Strategic Investor",
-		"desc": "<p>SAIF Partners is a leading Asian private equity firm, and makes privately negotiated equity or equity-linked investments across several growth sectors</p>",
+		"desc": "<p>SAIF Partners is a leading Asian private equity firm, currently managing over US$4 billion in capital.SAIF makes privately <br /> negotiated equity or equity-linked investments across several growth sectors.</p>",
 		"img": "images/h-5.png",
 		"tit": "Our Partners",
 		"list": [
@@ -129,7 +139,7 @@
 			},
 			{
 				"img": "images/h-7.png",
-				"h3": "Atlas Fund I"
+				"h3": "Atlas Fund l"
 			},
 			{
 				"img": "images/h-8.png",
@@ -138,6 +148,56 @@
 			{
 				"img": "images/h-9.png",
 				"h3": "CryptoFin Lab"
+			}
+		]
+	},
+	"mVision": {
+		"tit": "Vision",
+		"list": [
+			{
+				"img": "images/f1-p01.png",
+				"h3": "Innovation",
+				"desc": "Entrepreneurs need to search purposefully for the sources of innovation, the changes and their symptoms that indicate opportunities for successful innovation. And they need to know and to apply the principles of successful innovation."
+			},
+			{
+				"img": "images/f1-p02.png",
+				"h3": "Fair",
+				"desc": "We must work together to ensure the equitable distribution of wealth, opportunity, and power in our society."
+			},
+			{
+				"img": "images/f1-p03.png",
+				"h3": "Eliminating the gapbetween rich and poor ",
+				"desc": "Everyone can enjoy a life of luxurious leisure if the machine-produced wealth is shared, or most people can end up miserably poor if the machine-owners successfully lobby against wealth redistribution."
+			}
+		]
+	},
+	"news": {
+		"tit": "News",
+		"list": [
+			{
+				"img": "images/news-p01.jpg",
+				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
+				"date": "2019-05-16"
+			},
+			{
+				"img": "images/news-p01.jpg",
+				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
+				"date": "2019-05-16"
+			},
+			{
+				"img": "images/news-p01.jpg",
+				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
+				"date": "2019-05-16"
+			},
+			{
+				"img": "images/news-p01.jpg",
+				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
+				"date": "2019-05-16"
+			},
+			{
+				"img": "images/news-p01.jpg",
+				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
+				"date": "2019-05-16"
 			}
 		]
 	}

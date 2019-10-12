@@ -15,12 +15,22 @@ var index = new Vue({
 		this.getData();
 		
 		this.$nextTick(function(){
-			$('.banner').slick({
+			$('.banner .slider-nav').slick({
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				dots: true,
 				arrows: false,
+				autoplay: true,
+				pauseOnHover: false,
 				fade: true
+			});
+			$('.ban-news').slick({
+				autoplaySpeed: 4000,
+				slidesToShow: 3,
+				dots: true,
+				arrows: false,
+				autoplay: true,
+				pauseOnHover: false
 			});
 		});
 	},

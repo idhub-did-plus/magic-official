@@ -24,7 +24,7 @@ var index = new Vue({
 		},
 		submitHandle(){
 			alert('提交成功！');
-		}
+		},
 		// 获取语言包
 		getData: function (){
 			var that = this;

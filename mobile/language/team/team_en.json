@@ -14,7 +14,10 @@
 				"name": "Team",
 				"link": "-1-team.html"
 			},
-		
+			{
+				"name": "News",
+				"link": "-1-news.html"
+			},
 			{
 				"name": "Contact Us",
 				"link": "-1-contact-us.html"
@@ -26,7 +29,7 @@
 		],
 		"language": [
 			{
-				"name": "中文"
+				"name": "Cn"
 			},
 			{
 				"name": "En"
@@ -48,28 +51,31 @@
 				"name": "Team",
 				"link": "-1-team.html"
 			},
-		
+			{
+				"name": "News",
+				"link": "-1-news.html"
+			},
 			{
 				"name": "Contact Us",
 				"link": "-1-contact-us.html"
 			},
 			{
-				"name": "Blog",
+				"name": "BLOG",
 				"link": "https://medium.com/magic-circle"
 			}
 		],
 		"links": {
-			"tit": "Contact Us",
-			"desc": "Location: Hong Kong, Beijing, New York, Tokyo<br>Email: contact@magic.exchange"
+			"tit": "Contact us",
+			"desc": "Location: Hong Kong, Beijing, New York, Tokyo Email: contact@magic.exchange"
 		},
 		"contact": {
-			"tit": "Magic Circle",
-			"desc": "An innovative fintech company utilizing blockchain technology to provide infrastructure and complete solution to the crypto-finance world "
+			"tit": "HongKong • Beijing • NewYork • Tokyo ",
+			"desc": "Contact Us：contact@magic.exchange"
 		}
 	},
 	"mTeam": {
-		"tit": "Our Team",
-		"h3": "Core Management",
+		"tit": "Our team",
+		"h3": "Core management",
 		"list": [
 			{
 				"img": "images/r1.png",
@@ -83,140 +89,109 @@
 			},
 			{
 				"img": "images/r3.png",
-				"name": "Dr.Yuqi Bai",
+				"name": "Doer Qu",
 				"info": "CTO"
 			},
 			{
 				"img": "images/r4.png",
-				"name": "Ben Wu",
+				"name": "Doer Qu",
 				"info": "Chief Financing Consultant"
 			}
 		]
 	},
 	"rowB2": {
-		"h3": "Core Members",
+		"h3": "Core members",
 		"list": [
 			{
-					"img": "images/c_m11.png",
-					"name": "Chenjie Yuan",
-					"job": "Financing Consultant",
-					"img2": "images/c_mt11.png",
-					"detail": {
-						"name": "Chenjie Yuan",
-						"desc": "",
-						"link": ""
-					}
-				},
-				{
-					"img": "images/c_m12.png",
-					"name": "Alex Martini",
-					"job": "Consultant",
-					"img2": "images/c_mt12.png",
-					"detail": {
-						"name": "Alex Martini",
-						"desc": "",
-						"link": "https://www.linkedin.com/in/alexmartini1/"
-					}
-				},
-				{
-					"img": "images/c_m13.png",
-					"name": "Gurpreet Oberoi",
-					"job": "Consultant",
-					"img2": "images/c_mt13.png",
-					"detail": {
-						"name": "Gurpreet Oberoi",
-						"desc": "",
-						"link": ""
-					}
-				},
-				{
-					"img": "images/c_m2.png",
-					"name": "Merida Pan",
-					"job": "Operating&Complaince",
-					"img2": "images/c_mt2.png",
-					"detail": {
-						"name": "Merida Pan",
-						"desc": "Be brave, take some risks, make some mistakes and then learn from them.",
-						"link": "https://www.linkedin.com/in/merida-pan-982590126/"
-					}
-				},
-				{
-					"img": "images/c_m4.png",
-					"name": "Cecilia Wu",
-					"job": "Business Development",
-					"img2": "images/c_mt4.png",
-					"detail": {
-						"name": "Cecilia Wu",
-						"desc": "If we love one another, God lives in us, and His love is perfected in us.",
-						"link": "https://www.linkedin.com/in/cecilia2019"
-					}
-				},
-				{
-					"img": "images/c_m10.png",
-					"name": "Michael Wang",
-					"job": "Business Developmnt",
-					"img2": "images/c_mt10.png",
-					"detail": {
-						"name": "Michael Wang",
-						"desc": "It is not our abilities that show what we truly are,it is our choices between what is easy or right. ",
-						"link": "https://www.linkedin.com/in/%E6%B2%9B%E6%99%BA-%E7%8E%8B-56564582/"
-					}
-				},
-				{
-					"img": "images/c_m5.png",
-					"name": "Derek Xue",
-					"job": "Business Development",
-					"img2": "images/c_mt5.png",
-					"detail": {
-						"name": "Derek Xue",
-						"desc": "Life is splendid due to incompleteness",
-						"link": "https://www.linkedin.com/in/derek-xue-9b82b5100"
-					}
-				},
-				{
-					"img": "images/c_m6.png",
-					"name": "Iris Xiang",
-					"job": "Technology R&D",
-					"img2": "images/c_mt6.png",
-					"detail": {
-						"name": "Iris Xiang",
-						"desc": "Cleverness is a gift while kindness is a choice.",
-						"link": "https://www.linkedin.com/in/doer-qu-59a12852/"
-					}
-				},
-				{
-					"img": "images/c_m7.png",
-					"name": "Zaakin Yao",
-					"job": "Technology R&D",
-					"img2": "images/c_mt7.png",
-					"detail": {
-						"name": "Zaakin Yao",
-						"desc": "Code is law",
-						"link": "https://www.linkedin.com/in/%E6%B3%BD%E4%B9%BE-%E5%A7%9A-aaa865190/"
-					}
-				},
-				{
-					"img": "images/c_m8.png",
-					"name": "Christopher Liu",
-					"job": "Technology R&D",
-					"img2": "images/c_mt8.png",
-					"detail": {
-						"name": "Christopher Liu",
-						"desc": "There is a crack in everything. That's how the light gets in",
-						"link": "https://www.linkedin.com/in/yupeng-liu"
-					}
-				},
-				{
-					"img": "images/c_m9.png",
-					"name": "Jiaqi Li",
-					"job": "Technology R&D",
-					"img2": "images/c_mt9.png",
-					"detail": {
-						"name": "Jiaqi Li",
-						"desc": "I walked slowly, but I never retreat.",
-						"link": "https://www.linkedin.com/in/%E5%98%89%E6%B7%87-%E6%9D%8E-266229189/"
-					}
+				"img": "images/c_m1.png",
+				"name": "Doer Qu",
+				"job": "Technology R&D",
+				"img2": "images/c_mt1.png",
+				"detail": {
+					"name": "Doer Qu",
+					"desc": "To design a future that is unpredictable and nobody bets on",
+					"link": "https://www.linkedin.com/in/doer-qu-59a12852/"
 				}
-			]
-		}
+			},
+			{
+				"img": "images/c_m2.png",
+				"name": "Miranda Pan",
+				"job": "Operating and Complaince",
+				"img2": "images/c_mt2.png",
+				"detail": {
+					"name": "Merida Pan",
+					"desc": "Be brave, take some risks, make some mistakes and then learn from them.",
+					"link": "https://www.linkedin.com/in/merida-pan-982590126/"
+				}
+			},
+			{
+				"img": "images/c_m4.png",
+				"name": "Cecilia Wu",
+				"job": "Business Development",
+				"img2": "images/c_mt4.png",
+				"detail": {
+					"name": "Cecilia Wu",
+					"desc": "If we love one another, God lives in us, and His love is perfected in us.",
+					"link": "www.linkedin.com/in/cecilia2019"
+				}
+			},
+			{
+				"img": "images/c_m5.png",
+				"name": "Derek Xue",
+				"job": "Business Development",
+				"img2": "images/c_mt5.png",
+				"detail": {
+					"name": "Derek Xue",
+					"desc": "Life is splendid due to incompleteness",
+					"link": "https://www.linkedin.com/in/derek-xue-9b82b5100"
+				}
+			},
+			{
+				"img": "images/c_m6.png",
+				"name": "Iris Xiang",
+				"job": "Technology R&D",
+				"img2": "images/c_mt6.png",
+				"detail": {
+					"name": "Iris Xiang",
+					"desc": "Cleverness is a gift while kindness is a choice.",
+					"link": "https://www.linkedin.com/in/doer-qu-59a12852/"
+				}
+			},
+			{
+				"img": "images/c_m7.png",
+				"name": "Zaakin",
+				"job": "Technology R&D",
+				"img2": "images/c_mt7.png",
+				"detail": {
+					"name": "Zaakin",
+					"desc": "Code is law",
+					"link": "https://www.linkedin.com/in/%E6%B3%BD%E4%B9%BE-%E5%A7%9A-aaa865190/"
+				}
+			},
+			{
+				"img": "images/c_m8.png",
+				"name": "Christopher Liu",
+				"job": "Technology R&D",
+				"img2": "images/c_mt8.png",
+				"detail": {
+					"name": "Christopher Liu",
+					"desc": "There is a crack in everything. That's how the light gets in",
+					"link": "www.linkedin.com/in/yupeng-liu"
+				}
+			},
+			{
+				"img": "images/c_m9.png",
+				"name": "Jiaqi Li",
+				"job": "Technology R&D",
+				"img2": "images/c_mt9.png",
+				"detail": {
+					"name": "Jiaqi Li",
+					"desc": "I walked slowly, but I never retreat.",
+					"link": "https://www.linkedin.com/in/%E5%98%89%E6%B7%87-%E6%9D%8E-266229189/"
+				}
+			}
+			
+		],
+		"more": "more"
 	}
+}

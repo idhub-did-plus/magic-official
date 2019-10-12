@@ -14,7 +14,10 @@
 				"name": "团队",
 				"link": "-1-team.html"
 			},
-		
+			{
+				"name": "新闻",
+				"link": "-1-news.html"
+			},
 			{
 				"name": "联系我们",
 				"link": "-1-contact-us.html"
@@ -29,7 +32,7 @@
 				"name": "中文"
 			},
 			{
-				"name": "En"
+				"name": "英文"
 			}
 		]
 		
@@ -48,7 +51,10 @@
 				"name": "团队",
 				"link": "-1-team.html"
 			},
-		
+			{
+				"name": "新闻",
+				"link": "-1-news.html"
+			},
 			{
 				"name": "联系我们",
 				"link": "-1-contact-us.html"
@@ -60,15 +66,15 @@
 		],
 		"links": {
 			"tit": "联系我们",
-			"desc": "地点：香港，北京，纽约，东京<br>电子邮箱：contact@magic.exchange"
+			"desc": "地点：香港，北京，纽约，东京电子邮箱：contact@magic.exchange"
 		},
 		"contact": {
-			"tit": "Magic Circle",
-			"desc": "一家利用区块链技术为加密金融世界提供基础设施和完整解决方案的创新型金融科技公司 "
+			"tit": "香港 • 北京 • 纽约 • 东京",
+			"desc": "电子邮箱：contact@magic.exchange"
 		}
 	},
 	"mTeam": {
-		"tit": "我们的团队",
+		"tit": "我们的队伍",
 		"h3": "核心管理团队",
 		"list": [
 			{
@@ -89,7 +95,7 @@
 			{
 				"img": "images/r4.png",
 				"name": "吴俊平",
-				"info": "首席资本顾问"
+				"info": "Chief Financing Consultant"
 			}
 		]
 	},
@@ -97,36 +103,14 @@
 		"h3": "核心成员",
 		"list": [
 			{
-				"img": "images/c_m11.png",
-				"name": "袁陈杰",
-				"job": "资本顾问",
-				"img2": "images/c_mt11.png",
+				"img": "images/c_m1.png",
+				"name": "曲明",
+				"job": "技术研发",
+				"img2": "images/c_mt1.png",
 				"detail": {
-					"name": "袁陈杰",
-					"desc": "",
-					"link": ""
-				}
-			},
-			{
-				"img": "images/c_m12.png",
-				"name": "Alex Martini",
-				"job": "顾问",
-				"img2": "images/c_mt12.png",
-				"detail": {
-					"name": "Alex Martini",
-					"desc": "",
-					"link": "https://www.linkedin.com/in/alexmartini1/"
-				}
-			},
-			{
-				"img": "images/c_m13.png",
-				"name": "Gurpreet Oberoi",
-				"job": "顾问",
-				"img2": "images/c_mt13.png",
-				"detail": {
-					"name": "Gurpreet Oberoi",
-					"desc": "",
-					"link": ""
+					"name": "Doer Qu曲明",
+					"desc": "To design a future that is unpredictable and nobody bets on",
+					"link": "https://www.linkedin.com/in/doer-qu-59a12852/"
 				}
 			},
 			{
@@ -136,7 +120,7 @@
 				"img2": "images/c_mt2.png",
 				"detail": {
 					"name": "潘明慧",
-					"desc": "",
+					"desc": "勇敢一点、冒些险、犯些错，然后从中吸取教训。",
 					"link": "https://www.linkedin.com/in/merida-pan-982590126/"
 				}
 			},
@@ -147,19 +131,8 @@
 				"img2": "images/c_mt4.png",
 				"detail": {
 					"name": "吴茜",
-					"desc": "",
-					"link": "https://www.linkedin.com/in/cecilia2019"
-				}
-			},
-			{
-				"img": "images/c_m10.png",
-				"name": "王沛智",
-				"job": "商业开发",
-				"img2": "images/c_mt10.png",
-				"detail": {
-					"name": "王沛智",
-					"desc": "",
-					"link": "https://www.linkedin.com/in/%E6%B2%9B%E6%99%BA-%E7%8E%8B-56564582/"
+					"desc": "我们若彼此相爱，神就住在我们里面，爱他的心在我们里面得以完全了。",
+					"link": "www.linkedin.com/in/cecilia2019"
 				}
 			},
 			{
@@ -169,7 +142,7 @@
 				"img2": "images/c_mt5.png",
 				"detail": {
 					"name": "薛玉成",
-					"desc": "",
+					"desc": "生命因残缺而完美",
 					"link": "https://www.linkedin.com/in/derek-xue-9b82b5100"
 				}
 			},
@@ -180,7 +153,7 @@
 				"img2": "images/c_mt6.png",
 				"detail": {
 					"name": "项钰程",
-					"desc": "",
+					"desc": "聪明是一种天赋，而善良是一种选择。",
 					"link": "https://www.linkedin.com/in/doer-qu-59a12852/"
 				}
 			},
@@ -191,7 +164,7 @@
 				"img2": "images/c_mt7.png",
 				"detail": {
 					"name": "姚泽乾",
-					"desc": "",
+					"desc": "代码即法律",
 					"link": "https://www.linkedin.com/in/%E6%B3%BD%E4%B9%BE-%E5%A7%9A-aaa865190/"
 				}
 			},
@@ -202,8 +175,8 @@
 				"img2": "images/c_mt8.png",
 				"detail": {
 					"name": "刘磊",
-					"desc": "",
-					"link": "https://www.linkedin.com/in/yupeng-liu"
+					"desc": "万物皆有裂痕，那是光进来的地方",
+					"link": "www.linkedin.com/in/yupeng-liu"
 				}
 			},
 			{
@@ -213,10 +186,12 @@
 				"img2": "images/c_mt9.png",
 				"detail": {
 					"name": "李嘉淇",
-					"desc": "",
+					"desc": "我走得很慢，但是我从来不会后退。",
 					"link": "https://www.linkedin.com/in/%E5%98%89%E6%B7%87-%E6%9D%8E-266229189/"
 				}
 			}
-		]
+			
+		],
+		"more": "更多"
 	}
 }

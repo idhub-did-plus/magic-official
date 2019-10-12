@@ -29,7 +29,7 @@
 		],
 		"language": [
 			{
-				"name": "中文"
+				"name": "Cn"
 			},
 			{
 				"name": "En"
@@ -51,23 +51,26 @@
 				"name": "Team",
 				"link": "-1-team.html"
 			},
-			
+			{
+				"name": "News",
+				"link": "-1-news.html"
+			},
 			{
 				"name": "Contact Us",
 				"link": "-1-contact-us.html"
 			},
 			{
-				"name": "Blog",
+				"name": "BLOG",
 				"link": "https://medium.com/magic-circle"
 			}
 		],
 		"links": {
-			"tit": "Contact Us",
-			"desc": "Location: Hong Kong, Beijing, New York, Tokyo<br>Email: contact@magic.exchange"
+			"tit": "Contact us",
+			"desc": "Location: Hong Kong, Beijing, New York, Tokyo Email: contact@magic.exchange"
 		},
 		"contact": {
-			"tit": "Magic Circle",
-			"desc": "An innovative fintech company utilizing blockchain technology to provide infrastructure and complete solution to the crypto-finance world "
+			"tit": "HongKong • Beijing • NewYork • Tokyo ",
+			"desc": "Contact Us：contact@magic.exchange"
 		}
 	},
 	"mContact": {
@@ -79,11 +82,11 @@
 		"interest": {
 			"tit": "Interested in",
 			"list": [
-				{"value":"Business cooperation","content":"Business cooperation"},
-				{"value":"Technology cooperation","content":"Technology cooperation"},
-				{"value":"Becoming our client","content":"Becoming our client"},
-				{"value":"Investing in Magic Circle","content":"Investing in Magic Circle"},
-				{"value":"Learning more","content":"Learning more"}
+				"Business cooperation",
+				"Technology cooperation",
+				"Becoming our client",
+				"Investing in Magic Circle",
+				"Learning more"
 			]
 		},
 		"other":"Additional message",

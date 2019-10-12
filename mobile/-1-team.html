@@ -50,7 +50,7 @@
 				<div class="logo">
 					<a href="">
 						<img src="images/logo.png" alt="" class="img1" />
-						<img src="images/logo2.png" alt="" class="img2" />
+						<p>Magic Circle</p>
 					</a>
 				</div>
 			</div>
@@ -70,11 +70,15 @@
 								>
 									<div class="con">
 										<div class="pic">
-											<img :src="item.img" alt="">
+											<div class="inner">
+												<img :src="item.img" alt="">
+											</div>
 										</div>
 										<div class="txt">
 											<div class="name">{{ item.name }}</div>
-											<div class="job" v-html="item.info"></div>
+											<div class="job">
+												<p v-html="item.info"></p>
+											</div>
 										</div>
 									</div>
 								</li>
@@ -88,32 +92,50 @@
 					<div class="m-members">
 						<div class="g-tit_b">{{ content.rowB2.h3 }}</div>
 						<ul class="ul-members">
-							<li
+							<!-- <li
 								v-for="(item,index) of content.rowB2.list"
-								:key="index"							
+								:key="index"
+							> -->
+							<li
+								v-for="(item,index) of getList2"
+								:key="index"
 							>
 								<div class="con">
 									<div class="pic">
 										<a href=""><img :src="item.img" alt=""></a>
 									</div>
 									<div class="txt">
-										<div class="name">{{ item.name }}</div>
-										<div class="job">{{ item.job }}</div>
-										<div class="desc" v-html="item.detail.desc"></div>
+										<div class="inner">
+											<div class="name">{{ item.name }}</div>
+											<div class="job">{{ item.job }}</div>
+											<div class="desc" v-html="item.detail.desc"></div>
+										</div>
 										<a :href="item.detail.link" class="link"></a>
 									</div>
 								</div>
 							</li>
 
 						</ul>
+						<a 
+							href="javascript:;" 
+							class="more"
+							@click="getMore"
+							v-if="content.rowB2.list.length != list2.num"
+						>{{ content.rowB2.more }}</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- 内容 -->
 		<!-- 底部 -->
-		<div class="footer">
+		<!-- <div class="footer">
 			<div class="box">
+				<div class="fd-link">
+					<a href="" class="item s1"></a>
+					<a href="" class="item s2"></a>
+					<a href="" class="item s3"></a>
+					<a href="" class="item s4"></a>
+				</div>
 				<div class="links">
 					<a 
 						v-for="(item,index) of content.footer.nav"
@@ -128,6 +150,26 @@
 					<div class="txt t2">
 						<h3>{{ content.footer.contact.tit }}</h3>
 						<p>{{ content.footer.contact.desc }}</p>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="footer">
+			<div class="wp">
+				<div class="left">
+					<div class="fd-logo">Magic Circle</div>
+					<div class="copyright">© Magic circle. ALL RIGHTS RESERVED</div>
+					<div class="f-share01">
+						<a href="" class="a1"></a>
+						<a href="" class="a2"></a>
+						<a href="" class="a3"></a>
+						<a href="" class="a4"></a>
+					</div>
+				</div>
+				<div class="right">
+					<div class="fd-contact">
+						<p>{{ content.footer.contact.tit }}</p>
+						<p class="contact">{{ content.footer.contact.desc }}</p>
 					</div>
 				</div>
 			</div>

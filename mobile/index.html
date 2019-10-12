@@ -49,82 +49,141 @@
 				<div class="logo">
 					<a href="">
 						<img src="images/logo.png" alt="" class="img1" />
-						<img src="images/logo2.png" alt="" class="img2" />
+						<p>Magic Circle</p>
 					</a>
 				</div>
 			</div>
 		</div>
 		<!-- 头部 -->
 		<div class="banner">
-			<div 
-				v-for="(item,index) of content.banner"
-				class="item"
-			>
-				<div 
-					class="pic" 
-					:style="{'backgroundImage': 'url(' + item.icon + ')'}"
-				>
-					
+			<div class="txt">
+				<div class="wp">
+					<div class="con">
+						<h3>{{ content.bannerTxt.h3 }}</h3>
+						<div class="desc">
+							{{ content.bannerTxt.desc }}
+						</div>
+						<a 
+							:href="content.bannerTxt.link" 
+							class="more"
+						>{{ content.bannerMore }}</a>
+						
+					</div>
 				</div>
+			</div>
+			<div class="slider-nav">
+				<div 
+					v-for="(item,index) of content.banner"
+					class="item"
+				>
+					<div
+						class="pic"
+						:style="{'backgroundImage': 'url(' + item.icon + ')'}"
+					>
+					</div>
+				</div>
+			</div>
+			<div class="f-share01">
+				<a href="" class="a1"></a>
+				<a href="" class="a2"></a>
+				<a href="" class="a3"></a>
+				<a href="" class="a4"></a>
 			</div>
 		</div>
 		<!-- 内容 -->
+
+		<!-- row-f01 -->
+		<div class="row-f01">
+			<div class="wp">
+				<div class="g-tit1 wow fadeInUp" data-wow-delay=".3s">
+					<h3>{{ content.mVision.tit }}</h3>
+					<i></i>
+				</div>	
+				<div class="m-vision">
+					<!-- ul-vision -->
+					<ul class="ul-vision">
+						<li
+							v-for="item of content.mVision.list"
+						>
+							<div class="pic">
+								<img :src="item.img" alt="">
+							</div>
+							<div class="txt">
+								<h3>{{ item.h3 }}</h3>
+								<div class="desc">
+									{{ item.desc }}
+								</div>
+							</div>
+						</li>
+					</ul>
+					<!-- ul-vision end -->
+				</div>
+				
+			</div>
+		</div>
+		<!-- row-f01 end -->
+		<!-- row-a1-m -->
 		<div class="row-a1-m wow fadeInUp" data-wow-delay=".3s" style="background-image: url(images/b-s1.png)">
-			<div class="wp2">
+			<div class="wp">
 				<div class="m-txt-s1">
 					<div class="l wow fadeInUp" data-wow-delay=".6s">
 						<div class="txt1">
-							 <em v-html="content.mTxtS1.txt1.em"></em>
+							<!-- <em v-html="content.mTxtS1.txt1.em"></em> -->
 							<h2 class="tit" v-html="content.mTxtS1.txt1.tit"></h2>
 						</div>
 					</div>
 					<div class="r wow fadeInUp" data-wow-delay=".9s">
 						<div class="txt2">
-							<span  v-html="content.mTxtS1.txt2.span"></span>
-							<div v-html="content.mTxtS1.txt2.desc"></div>
+							<!-- <span  v-html="content.mTxtS1.txt2.span"></span> -->
+							<div class="desc" v-html="content.mTxtS1.txt2.desc"></div>
+						</div>
+						<div class="m-iconList01">
+							<div class="item">
+								<img src="images/m-icon01.png" alt="">
+							</div>
+							<div class="item">
+								<img src="images/m-icon02.png" alt="">
+							</div>
+							<div class="item">
+								<img src="images/m-icon03.png" alt="">
+							</div>
+							<div class="item">
+								<img src="images/m-icon04.png" alt="">
+							</div>
+							<div class="item">
+								<img src="images/m-icon05.png" alt="">
+							</div>
+							<div class="item">
+								<img src="images/m-icon06.png" alt="">
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row-a2-m wow fadeInUp" data-wow-delay=".3s">
-			<div class="m-video-s1 wow fadeInUp" data-wow-delay=".3s">
-				<div class="video">
-					<video src="video/video.mp4" controls></video>
-					<span><i class="js-play-s1"></i></span>
-				</div>
-				<div class="txt wow fadeInUp" data-wow-delay=".9s">
-					<h3 class="tit" v-html="content.mVideoS1.tit"></h3>
-					<p v-html="content.mVideoS1.desc"></p>
-					<a href="-1-service.html" class="more">{{ content.mVideoS1.more }}</a>
-				</div>
-			</div>
-		</div>
+		<!-- row-a1-m end -->
+
+		<!-- row-1 -->
 		<div class="row-1">
 			<div class="wp2">
-				<div class="l wow fadeInUp" data-wow-delay=".3s">
-					<div class="tit">
-						<p>{{ content.row1.left.tit }}</p>
-						<h3>{{ content.row1.left.en }}</h3>
-						<i></i>
-					</div>
-					<div class="txt">
-						<div class="desc" v-html="content.row1.left.desc"></div>
-						<a href="-1-contact-us.html">{{ content.row1.left.more }}</a>
-					</div>
+				<div class="g-tit1 wow fadeInUp" data-wow-delay=".3s">
+					<h3>{{ content.row1.left.tit }}</h3>
+					<i></i>
 				</div>
-				<ul class="ul-ingtxt-h1">
+				<ul class="ul-ingtxt-h1" style="padding-top: 15px;">
 					<li 
 						v-for="(item,index) of content.row1.list"
 						class="wow fadeInUp" 
 						data-wow-delay=".6s"
 					>
 						<div class="con">
-							<div :class="['pic', 'p1', {'p2': index==1 }]">
-								<img :src="item.img" alt="" />
+							<div class="pic">
+								<div class="icon">
+									<img :src="item.img" alt="" />
+								</div>
+								<h3>{{ item.h3 }}</h3>
 							</div>
 							<div class="txt">
-								<h3>{{ item.h3 }}</h3>
 								<div class="desc" v-html="item.desc"></div>
 							</div>
 						</div>
@@ -132,12 +191,38 @@
 				</ul>
 			</div>
 		</div>
+		<!-- row-1 end -->
+
+		<!-- row-a2-m -->
+		<div class="row-a2-m wow fadeInUp" data-wow-delay=".3s" style="background-image: url(images/b-s2.png)">
+			<div class="wp">
+				<div class="m-video-s1 wow fadeInUp" data-wow-delay=".6s">
+					<div class="video">
+						<video :src="content.mVideoS1.video" controls></video>
+						<span><i class="js-play-s1"></i></span>
+					</div>
+					<div class="txt wow fadeInUp" data-wow-delay=".6s">
+						<div class="con">
+							<h3 class="tit" v-html="content.mVideoS1.tit"></h3>
+							<!-- <i class="i1"></i> -->
+							<p v-html="content.mVideoS1.desc"></p>
+							<!-- <a href="" class="more">{{ content.mVideoS1.more }}</a> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- row-a2-m end -->
+		<!-- row-2 -->
 		<div class="row-2">
 			<div class="wp2">
 				<div class="g-tit1 mb1 wow fadeInUp" data-wow-delay=".3s">
-					<h3>{{ content.row2.h3 }}</h3><i></i>
+					<h3>{{ content.row2.h3 }}</h3>
+					<i></i>
 				</div>
-				<div class="img wow fadeInUp" data-wow-delay=".6s"><img src="images/h-5.png" alt="" /></div>
+				<div class="img wow fadeInUp" data-wow-delay=".6s"><img :src="content.row2.img" alt="" />
+				
+				</div>
 				<div class="f-content" v-html="content.row2.desc"></div>
 				<div class="g-tit1 mb2 wow fadeInUp" data-wow-delay=".9s">
 					<h3>{{ content.row2.tit }}</h3><i></i>
@@ -150,20 +235,52 @@
 						<div class="pic">
 							<img :src="item.img" alt="" />
 						</div>
-						<p>{{ item.h3 }}</p>
+						<h3>{{ item.h3 }}</h3>
 					</li>
 				</ul>
 			</div>
 		</div>
+		<!-- row-2 end -->
+		
+		<!-- row-f03 -->
+		<div class="row-f03">
+			<div class="wp2">
+				<div class="g-tit1 mb1 wow fadeInUp" data-wow-delay=".3s">
+					<h3>{{ content.news.tit }}</h3><i></i>
+				</div>
+				<div class="ban-news">
+					<div 
+						class="item"
+						v-for="(item,index) of content.news.list"
+						:key="index"
+					>
+						<div class="con">
+							<a href="">
+								<div class="pic">
+									<div class="inner">
+										<img :src="item.img" alt="">
+									</div>
+								</div>
+								<div class="txt">
+									<h3>{{item.h3}}</h3>
+									<div class="date">{{ item.date }}</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- row-f03 end -->
 		<!-- 内容 -->
 		<!-- 底部 -->
-		<div class="footer">
+		<!-- <div class="footer">
 			<div class="box">
 				<div class="fd-link">
-					<a href="https://medium.com/@MagicCircleTech" class="item s1"></a>
-					<a href="https://twitter.com/MagicCircleTech" class="item s2"></a>
-					<a href="https://www.facebook.com/MagicCircleTech/" class="item s3"></a>
-					<a href="https://www.linkedin.com/company/19192122/admin/" class="item s4"></a>
+					<a href="" class="item s1"></a>
+					<a href="" class="item s2"></a>
+					<a href="" class="item s3"></a>
+					<a href="" class="item s4"></a>
 				</div>
 				<div class="links">
 					<a 
@@ -179,6 +296,26 @@
 					<div class="txt t2">
 						<h3>{{ content.footer.contact.tit }}</h3>
 						<p>{{ content.footer.contact.desc }}</p>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="footer">
+			<div class="wp">
+				<div class="left">
+					<div class="fd-logo">Magic Circle</div>
+					<div class="copyright">© Magic circle. ALL RIGHTS RESERVED</div>
+					<div class="f-share01">
+						<a href="" class="a1"></a>
+						<a href="" class="a2"></a>
+						<a href="" class="a3"></a>
+						<a href="" class="a4"></a>
+					</div>
+				</div>
+				<div class="right">
+					<div class="fd-contact">
+						<p>{{ content.footer.contact.tit }}</p>
+						<p class="contact">{{ content.footer.contact.desc }}</p>
 					</div>
 				</div>
 			</div>

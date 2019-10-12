@@ -17,15 +17,23 @@ var index = new Vue({
 		this.$nextTick(function(){
 			$('.slider-nav').slick({
 				autoplaySpeed: 4000,
-				dots: true,
-				arrows: true,
+				dots: false,
+				arrows: false,
 				autoplay: true,
 				pauseOnHover: false
 			});
 			$(".banner .slick-dots li").each(function() {
 				var ss = $(this).find("button").html();
-				var txt = " ";
+				var txt = "No" + ss;
 				$(this).find("button").html(txt);
+			});
+			$('.ban-news').slick({
+				autoplaySpeed: 4000,
+				slidesToShow: 4,
+				dots: false,
+				arrows: true,
+				autoplay: true,
+				pauseOnHover: false
 			});
 		});
 	},

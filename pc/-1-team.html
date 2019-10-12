@@ -50,7 +50,7 @@
 				<div class="logo">
 					<a href="">
 						<img src="images/logo.png" alt="" class="img1" />
-						<img src="images/logo2.png" alt="" class="img2" />
+						<p>Magic Circle</p>
 					</a>
 				</div>
 			</div>
@@ -61,16 +61,18 @@
 			<div class="row_b1">
 				<div class="wp">
 					<div class="m-team">
-						<div class="top">
-							<div class="tit wow fadeInUp" data-wow-delay=".3s">{{ content.mTeam.tit }}</div>
+						<!-- <div class="top"> -->
+							<!-- <div class="tit wow fadeInUp" data-wow-delay=".3s">{{ content.mTeam.tit }}</div> -->
 							<!--              <div class="desc">Team introductionTeam introductionTeam introductionTe，am introductionTeam
 							introductionTe，am introductionTeam introductionTeam introductionTeam introduc，tionTeam
 							introductionTeam in，troductionTeam introductionTeam introductionTeam ，introductionTeam
 							introductionTeam introductionTeam introductionTeam introd，uctionTeam introducti，onTeam
 							introduction</div> -->
-						</div>
+						<!-- </div> -->
 						<div class="manage">
-							<div class="g-tit_b wow fadeInUp" data-wow-delay=".3s">{{ content.mTeam.h3 }}</div>
+							<div class="g-tit1 f-tit01 wow fadeInUp" data-wow-delay=".3s">
+								<h3>{{ content.mTeam.h3 }}</h3><i></i>
+							</div>
 							<ul class="ul-list_b">
 								<li 
 									v-for="(item,index) of content.mTeam.list"
@@ -79,7 +81,9 @@
 								>
 									<div class="con">
 										<div class="pic">
-											<img :src="item.img" alt="">
+											<div class="inner">
+												<img :src="item.img" alt="">
+											</div>
 										</div>
 										<div class="txt">
 											<div class="name">{{ item.name }}</div>
@@ -95,7 +99,9 @@
 			<div class="row_b2">
 				<div class="wp">
 					<div class="m-members">
-						<div class="g-tit_b wow fadeInUp" data-wow-delay=".3s">{{ content.rowB2.h3 }}</div>
+						<div class="g-tit1 f-tit01 wow fadeInUp" data-wow-delay=".3s">
+							<h3>{{ content.rowB2.h3 }}</h3><i></i>
+						</div>
 						<div class="slider wow fadeInUp" data-wow-delay=".6s">
 							<div 
 								class="item"
@@ -105,7 +111,9 @@
 								<div class="box">
 									<div class="con">
 										<div class="pic">
-											<img :src="item.img" alt="">
+											<div class="inner">
+												<img :src="item.img" alt="">
+											</div>
 										</div>
 										<div class="txt">
 											<div class="name">{{ item.name }}</div>
@@ -127,7 +135,7 @@
 		</div>
 		<!-- 内容 -->
 		<!-- 底部 -->
-		<div class="footer">
+		<!-- <div class="footer">
 			<div class="box">
 				<div class="links">
 					<a 
@@ -143,6 +151,26 @@
 					<div class="txt t2">
 						<h3>{{ content.footer.contact.tit }}</h3>
 						<p>{{ content.footer.contact.desc }}</p>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="footer">
+			<div class="wp">
+				<div class="left">
+					<div class="fd-logo">Magic Circle</div>
+					<div class="copyright">© Magic circle. ALL RIGHTS RESERVED</div>
+					<div class="f-share01">
+						<a href="" class="a1"></a>
+						<a href="" class="a2"></a>
+						<a href="" class="a3"></a>
+						<a href="" class="a4"></a>
+					</div>
+				</div>
+				<div class="right">
+					<div class="fd-contact">
+						<p>{{ content.footer.contact.tit }}</p>
+						<p class="contact">{{ content.footer.contact.desc }}</p>
 					</div>
 				</div>
 			</div>

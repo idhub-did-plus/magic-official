@@ -19,7 +19,7 @@ var index = new Vue({
 			$('.m-members .slider').slick({
 				dots: false,
 				arrows: true,
-				autoplay: true,
+				autoplay: false,
 				slidesToShow: 4,
 			});
 		});
