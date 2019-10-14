@@ -86,73 +86,31 @@
 		"list": [
 			{
 				"link": "-1-news-copy.html",
-				"img": "images/p-s2.jpg",
-				 "tit": "魔术圈提供如此服务",
-				 "desc": "<p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。</p>",
-				 "date": "07 - 02"
+				"img": "images/news-p02.jpg",
+				 "tit": "数字证券引领金融“范式革命” 未来万亿数字金融市场雏形初显",
+				 "desc": "<p>9月3日，主题为“数字化证券——资产突破全球流动性的战略隘口”的STOCOOP亚洲行上海站活动正式举行。作为数字证券领域的观察者与实践者，IDHub基金会主席、Magic Circle创始人曲明表示，数字证券将掀起全球金融的“范式革命”。</p>",
+				 "date": "09 - 05"
 			},
 			{
 				"link": "-1-news-copy.html",
 				"img": "images/p-s2.jpg",
-				 "tit": "魔术圈提供如此服务",
-				 "desc": "<p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。</p>",
-				 "date": "07 - 02"
+				 "tit": "IDHub创始人曲明：KYC与流动性破局",
+				 "desc": "<p>在数字证券发行（STO）的环节中，KYC（Know Your Customer）是非常重要的一环，这是对于发行平台、监管部门、项目方、投资者等多方来说产生互信的重要前提。今天，Blocklike请到了KYC领域的专家，IDHub创始人、Magic Circle创始人曲明，由他带领我们深度了解ST领域下KYC的主要流程与重要意义。</p>",
+				 "date": "05 - 29"
 			},
 			{
 				"link": "-1-news-copy.html",
-				"img": "images/p-s2.jpg",
-				 "tit": "魔术圈提供如此服务",
-				 "desc": "<p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。</p>",
-				 "date": "07 - 02"
-			},
-			{
-				"link": "-1-news-copy.html",
-				"img": "",
-				 "tit": "魔术圈提供如此服务",
-				 "desc": "<p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。</p>",
-				 "date": "07 - 02"
-			},
-			{
-				"link": "-1-news-copy.html",
-				"img": "",
-				 "tit": "魔术圈提供如此服务",
-				 "desc": "<p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。</p>",
-				 "date": "07 - 02"
-			},
-			{
-				"link": "-1-news-copy.html",
-				"img": "",
-				 "tit": "魔术圈提供如此服务",
-				 "desc": "<p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。</p>",
-				 "date": "07 - 02"
-			},
-			{
-				"link": "-1-news-copy.html",
-				"img": "images/p-s2.jpg",
-				 "tit": "魔术圈提供如此服务",
-				 "desc": "<p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。</p>",
-				 "date": "07 - 02"
-			},
-			{
-				"link": "-1-news-copy.html",
-				"img": "images/p-s2.jpg",
-				 "tit": "魔术圈提供如此服务",
-				 "desc": "<p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。</p>",
-				 "date": "07 - 02"
-			},
-			{
-				"link": "-1-news-copy.html",
-				"img": "images/p-s2.jpg",
-				 "tit": "魔术圈提供如此服务",
-				 "desc": "<p>Magic Circle提供统一身份认证访问，兼容标记化平台，全液体数字资产市场和STO平台可编程价值管理等服务。</p>",
-				 "date": "07 - 02"
-			}
+				"img": "images/news-p01.jpg",
+				 "tit": "Magic Circle首次亮相 创始人曲明破译数字证券背后的密码",
+				 "desc": "<p>近日，“华尔街2.0——数字化证券分享会”杭州站与上海站两场圆满结束。作为IDHub基金会今年重点孵化项目，Magic Circle首度亮相，创始人曲明与嘉宾分享了对数字证券的全新理解，以及区块链数字身份如何在数字证券发行过程中发挥作用。</p>",
+				 "date": "05 - 16"
+			}			
 		]
 	},
 	"pages": {
 		"firstTxt": "首页",
 		"prevTxt": "上一页",
 		"nextTxt": "下一页",
-		"lastTxt": "结尾"
+		"lastTxt": "末页"
 	}
 }

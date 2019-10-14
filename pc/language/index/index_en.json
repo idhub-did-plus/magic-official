@@ -98,7 +98,7 @@
 		},
 		"txt2": {
 			"span": "STO",
-			"desc": "<p>Security tokens are egulated digital assets backed by real-life assets (e.g. stocks, bonds, real estate, art, private equity, or even cars).Via blockchain and smart contracts, features such as auto compliance, fractional ownership, free global explosure, and disintermediation are enabled to attain an incredible degree of liquidity.</p>"
+			"desc": "<p>Security tokens are regulated digital assets backed by real-life assets (e.g. stocks, bonds, real estate, art, private equity, or even cars).Via blockchain and smart contracts, features such as auto compliance, fractional ownership, free global explosure, and disintermediation are enabled to attain an incredible degree of liquidity.</p>"
 		}
 	},
 	"mVideoS1": {
@@ -176,18 +176,18 @@
 		"list": [
 			{
 				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
+				"h3": "Magic Circle makes first apprearance, Mr Qu decodes the secret behind security tokens",
 				"date": "2019-05-16"
 			},
 			{
-				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
-				"date": "2019-05-16"
+				"img": "images/p-s2.jpg",
+				"h3": "KYC and Liquidity Innovation",
+				"date": "2019-05-19"
 			},
 			{
-				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
-				"date": "2019-05-16"
+				"img": "images/news-p02.jpg",
+				"h3": "Security Tokens lead the global Paradigm Revolution, trillion future digital financial market is emerging",
+				"date": "2019-09-05"
 			},
 			{
 				"img": "images/news-p01.jpg",
