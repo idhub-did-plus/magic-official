@@ -105,7 +105,7 @@
 			{
 				"img": "images/c_m1.png",
 				"name": "曲明",
-				"job": "技术研发",
+				"job": "CEO",
 				"img2": "images/c_mt1.png",
 				"detail": {
 					"name": "Doer Qu曲明",
@@ -180,6 +180,17 @@
 				}
 			},
 			{
+				"img": "images/c_m10.jpg",
+				"name": "王沛智",
+				"job": "商业开发",
+				"img2": "images/c_mt10.jpg",
+				"detail": {
+					"name": "王沛智",
+					"desc": "决定我们成为什么样人的，不是我们的能力，而是我们在简单和正确之间的选择。",
+					"link": "https://www.linkedin.com/in/%E6%B2%9B%E6%99%BA-%E7%8E%8B-56564582/"
+				}
+			},
+			{
 				"img": "images/c_m6.png",
 				"name": "项钰程",
 				"job": "技术研发",
@@ -221,17 +232,6 @@
 					"name": "李嘉淇",
 					"desc": "我走得很慢，但是我从来不会后退。",
 					"link": "https://www.linkedin.com/in/%E5%98%89%E6%B7%87-%E6%9D%8E-266229189/"
-				}
-			},
-			{
-				"img": "images/c_m10.jpg",
-				"name": "王沛智",
-				"job": "商业开发",
-				"img2": "images/c_mt10.jpg",
-				"detail": {
-					"name": "王沛智",
-					"desc": "决定我们成为什么样人的，不是我们的能力，而是我们在简单和正确之间的选择。",
-					"link": "https://www.linkedin.com/in/%E6%B2%9B%E6%99%BA-%E7%8E%8B-56564582/"
 				}
 			}
 			

@@ -105,7 +105,7 @@
 			{
 				"img": "images/c_m1.png",
 				"name": "Doer Qu",
-				"job": "Technology R&D",
+				"job": "CEO",
 				"img2": "images/c_mt1.png",
 				"detail": {
 					"name": "Doer Qu",
@@ -180,6 +180,17 @@
 				}
 			},
 			{
+				"img": "images/c_m10.jpg",
+				"name": "Michael Wang",
+				"job": "Business Development",
+				"img2": "images/c_mt10.jpg",
+				"detail": {
+					"name": "Michael Wang",
+					"desc": "It is not our abilities that show what we truly are,it is our choices between what is easy or right.",
+					"link": "https://www.linkedin.com/in/%E6%B2%9B%E6%99%BA-%E7%8E%8B-56564582/"
+				}
+			},
+			{
 				"img": "images/c_m6.png",
 				"name": "Iris Xiang",
 				"job": "Technology R&D",
@@ -192,11 +203,11 @@
 			},
 			{
 				"img": "images/c_m7.png",
-				"name": "Zaakin",
+				"name": "Zaakin Yao",
 				"job": "Technology R&D",
 				"img2": "images/c_mt7.png",
 				"detail": {
-					"name": "Zaakin",
+					"name": "Zaakin Yao",
 					"desc": "Code is law",
 					"link": "https://www.linkedin.com/in/%E6%B3%BD%E4%B9%BE-%E5%A7%9A-aaa865190/"
 				}
@@ -221,17 +232,6 @@
 					"name": "Jiaqi Li",
 					"desc": "I walked slowly, but I never retreat.",
 					"link": "https://www.linkedin.com/in/%E5%98%89%E6%B7%87-%E6%9D%8E-266229189/"
-				}
-			},
-			{
-				"img": "images/c_m10.jpg",
-				"name": "Michael Wang",
-				"job": "Business Development",
-				"img2": "images/c_mt10.jpg",
-				"detail": {
-					"name": "Michael Wang",
-					"desc": "It is not our abilities that show what we truly are,it is our choices between what is easy or right.",
-					"link": "https://www.linkedin.com/in/%E6%B2%9B%E6%99%BA-%E7%8E%8B-56564582/"
 				}
 			}
 			
