@@ -3,7 +3,7 @@
 	"header": {
 		"nav":[
 			{
-				"name": "Home",
+				"name": " Home",
 				"link": "index.html"
 			},
 			{
@@ -29,7 +29,7 @@
 		],
 		"language": [
 			{
-				"name": "Cn"
+				"name": "中文"
 			},
 			{
 				"name": "En"
@@ -60,7 +60,7 @@
 				"link": "-1-contact-us.html"
 			},
 			{
-				"name": "BLOG",
+				"name": "Blog",
 				"link": "https://medium.com/magic-circle"
 			}
 		],

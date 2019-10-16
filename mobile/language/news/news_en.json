@@ -29,7 +29,7 @@
 		],
 		"language": [
 			{
-				"name": "Cn"
+				"name": "中文"
 			},
 			{
 				"name": "En"
@@ -60,12 +60,12 @@
 				"link": "-1-contact-us.html"
 			},
 			{
-				"name": "BLOG",
+				"name": "Blog",
 				"link": "https://medium.com/magic-circle"
 			}
 		],
 		"links": {
-			"tit": "Contact us",
+			"tit": "Contact Us",
 			"desc": "Location: Hong Kong, Beijing, New York, Tokyo Email: contact@magic.exchange"
 		},
 		"contact": {
@@ -80,56 +80,35 @@
 				"name": "Recent news"
 			},
 			{
-				"name": "Future news"
+				"name": "Historic news"
 			}
 		],
 		"list": [
 			{
-				"link": "-1-news-copy.html",
-				"img": "images/p-s2.jpg",
-				 "tit": "Magic Circle provides services such",
-				 "desc": "Magic Circle provides services such as unified Identity Authentication access, compliant tokenization platform, fully-liquid digital assets marketplace and programmable value management for STO platform. Via tokenizing in …</p>",
-				 "date": "2019-07-02"
+				"link": "-3-news-copy.html",
+				"img": "images/news-p03.jpg",
+				 "tit": "Security tokens lead the global paradigm revolution, trillion future digital financial market is emerging",
+				 "desc": "<p>In Sep 3rd, Magic Circle has been invited to the ‘Security Token--the key to break global liquidity’ event hosted by STOCOOP. As the observer and practitioner, Founder of IDHub Foundation and Magic Circle, Mr Qu stated that, Security Token will lead the global Paradigm Revolution.</p>",
+				 "date": "09 - 05"
+			},
+			{
+				"link": "-2-news-copy.html",
+				"img": "images/news-p02.jpg",
+				 "tit": "Qu Ming, Founder of IDHub: KYC and Improvement of Liquidity",
+				 "desc": "<p>Interview with Qu Ming about the main processes and significance of KYC in the ST field.</p>",
+				 "date": "05 - 29"
 			},
 			{
 				"link": "-1-news-copy.html",
-				"img": "images/p-s2.jpg",
-				 "tit": "Magic Circle provides services such",
-				 "desc": "Magic Circle provides services such as unified Identity Authentication access, compliant tokenization platform, fully-liquid digital assets marketplace and programmable value management for STO platform. Via tokenizing in …</p>",
-				 "date": "2019-07-02"
-			},
-			{
-				"link": "-1-news-copy.html",
-				"img": "images/p-s2.jpg",
-				 "tit": "Magic Circle provides services such",
-				 "desc": "Magic Circle provides services such as unified Identity Authentication access, compliant tokenization platform, fully-liquid digital assets marketplace and programmable value management for STO platform. Via tokenizing in …</p>",
-				 "date": "2019-07-02"
-			},
-			{
-				"link": "-1-news-copy.html",
-				"img": "images/p-s2.jpg",
-				 "tit": "Magic Circle provides services such",
-				 "desc": "Magic Circle provides services such as unified Identity Authentication access, compliant tokenization platform, fully-liquid digital assets marketplace and programmable value management for STO platform. Via tokenizing in …</p>",
-				 "date": "2019-07-02"
-			},
-			{
-				"link": "-1-news-copy.html",
-				"img": "images/p-s2.jpg",
-				 "tit": "Magic Circle provides services such",
-				 "desc": "Magic Circle provides services such as unified Identity Authentication access, compliant tokenization platform, fully-liquid digital assets marketplace and programmable value management for STO platform. Via tokenizing in …</p>",
-				 "date": "2019-07-02"
-			},
-			{
-				"link": "-1-news-copy.html",
-				"img": "images/p-s2.jpg",
-				 "tit": "Magic Circle provides services such",
-				 "desc": "Magic Circle provides services such as unified Identity Authentication access, compliant tokenization platform, fully-liquid digital assets marketplace and programmable value management for STO platform. Via tokenizing in …</p>",
-				 "date": "2019-07-02"
+				"img": "images/news-p01.jpg",
+				 "tit": "Magic Circle makes first apprearance, Mr Qu decodes the secret behind security tokens",
+				 "desc": "<p>Recently, Wall Street 2.0--Digital Security Seminar brought to a successful close. During the meeting, the Star project of IDHub Foundation, Magic Circle has been introduced to the public for the first time. Founder and CEO Mr. Qu shared his advanced understanding towards security tokens, and the role of Decentralized Digital Identity during the security token issuance process.</p>",
+				 "date": "05 - 16"
 			}
 		]
 	},
 	"pages": {
-		"firstTxt": "Home",
+		"firstTxt":"Home",
 		"prevTxt": "Prev",
 		"nextTxt": "Next",
 		"lastTxt": "End"

@@ -29,7 +29,7 @@
 		],
 		"language": [
 			{
-				"name": "Cn"
+				"name": "中文"
 			},
 			{
 				"name": "En"
@@ -60,12 +60,12 @@
 				"link": "-1-contact-us.html"
 			},
 			{
-				"name": "BLOG",
+				"name": "Blog",
 				"link": "https://medium.com/magic-circle"
 			}
 		],
 		"links": {
-			"tit": "Contact us",
+			"tit": "Contact Us",
 			"desc": "Location: Hong Kong, Beijing, New York, Tokyo Email: contact@magic.exchange"
 		},
 		"contact": {
@@ -79,29 +79,29 @@
 		
 	},
 	"rowC2": {
-		"h3": "Magic Cirlce Eco-map",
+		"h3": "Magic Circle Eco-map",
 		"img": "images/c_s.jpg"
 	},
 	"rowC3": {
-		"h2": "Solution and Key technologies",
+		"h2": "Solution and Key Technologies",
 		"list": [
 			{
 				"img": "images/c_6.png",
 				"h4": "DID Plus",
-				"desc": "<p>Generate DID, managing identity data; complete</p><p>accredited investor one-time verification, login to third</p><p>parties platforms without repeating verification process</p>",
+				"desc": "<p>Generate DID, managing identity data; complete</p><p>accredited investor one-time verification, login to third</p><p>parties platforms without repeating verification process.</p>",
 				"info": "<p>Decentralized identity based on Ethereum smart contract</p><p>On-chain authorization</p><p>KYC/AML whitelist</p>"
 			},
 			{
 				"img": "images/c_7.png",
 				"h4": "Foundry",
 				"desc": "<p>Provide tokenization solution for ST</p><p>issuance platform</p>",
-				"info": "<p>ERC-1400 (Support R-token, ST 20 in the future</p><p>ST equity clearing</p>"
+				"info": "<p>ERC-1400</p><p>(Support R-token, ST 20 in the future)</p><p>IDHub whitelist</p>"
 			},
 			{
 				"img": "images/c_8.png",
 				"h4": "Magic Circle Marketplace",
 				"desc": "<p>24/7 decentralized ST exchange</p><p>platform</p>",
-				"info": "<p>Decentralized exchange based on 0x protocol</p><p>Auto order matching</p><p>24/7</p><p>No specific requirement of licenses</p>"
+				"info": "<p>Decentralized exchange based on 0x protocol</p><p>Auto order matching</p>"
 			}
 		]
 	}

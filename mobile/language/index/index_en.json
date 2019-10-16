@@ -29,7 +29,7 @@
 		],
 		"language": [
 			{
-				"name": "Cn"
+				"name": "中文"
 			},
 			{
 				"name": "En"
@@ -60,12 +60,12 @@
 				"link": "-1-contact-us.html"
 			},
 			{
-				"name": "BLOG",
+				"name": "Blog",
 				"link": "https://medium.com/magic-circle"
 			}
 		],
 		"links": {
-			"tit": "Contact us",
+			"tit": "Contact Us",
 			"desc": "Location: Hong Kong, Beijing, New York, Tokyo Email: contact@magic.exchange"
 		},
 		"contact": {
@@ -74,7 +74,7 @@
 		}
 	},
 	"bannerTxt": {
-		"link": "",
+		"link": "-1-service.html",
 		"h3": "Magic Circle",
 		"desc": "Magic Circle provides services such as unified Identity Authentication access, compliant tokenization platform, fully-liquid digital assets marketplace and programmable value management for STO platform. Via tokenizing in a complaint way, real-world assets can realize its real liquidity and true value in a global base."
 		
@@ -93,23 +93,23 @@
 	"bannerMore": "Learn more",
 	"mTxtS1": {
 		"txt1": {
-			"em": "why sto",
-			"tit": "Security Token Offering"
+			"em": "Why STO",
+			"tit": "Security<br />Token<br />Offering"
 		},
 		"txt2": {
 			"span": "STO",
-			"desc": "<p>Security tokens are egulated digital assets backed by real-life assets (e.g. stocks, bonds, real estate, art, private equity, or even cars).</p><p>Via blockchain and smart contracts, features such as auto compliance, fractional ownership, free global explosure, and disintermediation are enabled to attain an incredible degree of liquidity.</p>"
+			"desc": "<p>Security tokens are regulated digital assets backed by real-life assets (e.g. stocks, bonds, real estate, art, private equity, or even cars).Via blockchain and smart contracts, features such as auto compliance, fractional ownership, free global explosure, and disintermediation are enabled to attain an incredible degree of liquidity.</p>"
 		}
 	},
 	"mVideoS1": {
 		"video": "video/video1.mp4", 
 		"tit": "Magic Circle",
-		"desc": "Unlock Market and Release Real Liquidity",
+		"desc": "Unlock Market and <br />Release Real Liquidity",
 		"more": "Learn more"
 	},
 	"row1": {
 		"left": {
-			"tit": "Why Magic Circle",
+			"tit": "Why <span>Magic Circle</span>",
 			"en": "Magic Circle",
 			"desc": "<p>Magic Circle provides services such as unified Identity Authentication access, compliant tokenization platform, fully-liquid digital assets marketplace and programmable value management for STO platform. Via tokenizing in a complaint way, real-world assets can realize its real liquidity and true value in a global base.</p>",
 			"more": "Join us"
@@ -129,7 +129,7 @@
 	},
 	"row2": {
 		"h3": "Strategic Investor",
-		"desc": "<p>SAIF Partners is a leading Asian private equity firm, and makes privately negotiated equity or equity-linked investments across several growth sectors</p>",
+		"desc": "<p>SAIF Partners is a leading Asian private equity firm, currently managing over US$4 billion in capital.SAIF makes privately <br /> negotiated equity or equity-linked investments across several growth sectors.</p>",
 		"img": "images/h-5.png",
 		"tit": "Our Partners",
 		"list": [
@@ -139,7 +139,7 @@
 			},
 			{
 				"img": "images/h-7.png",
-				"h3": "Atlas Fund l"
+				"h3": "Atlas Fund I"
 			},
 			{
 				"img": "images/h-8.png",
@@ -175,28 +175,33 @@
 		"tit": "News",
 		"list": [
 			{
-				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
-				"date": "2019-05-16"
+				"img": "images/news-p03.jpg",
+				"h3": "Security tokens lead the global paradigm revolution, trillion future digital financial market is emerging",
+				"date": "2019-09-05"
+			},
+			{
+				"img": "images/news-p02.jpg",
+				"h3": "Qu Ming, Founder of IDHub: KYC and Improvement of Liquidity",
+				"date": "2019-05-29"
 			},
 			{
 				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
+				"h3": "Magic Circle makes first apprearance, Mr Qu decodes the secret behind security tokens",
 				"date": "2019-05-16"
 			},
 			{
-				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
-				"date": "2019-05-16"
+				"img": "images/news-p03.jpg",
+				"h3": "Security tokens lead the global paradigm revolution, trillion future digital financial market is emerging",
+				"date": "2019-09-05"
+			},
+			{
+				"img": "images/news-p02.jpg",
+				"h3": "Qu Ming, Founder of IDHub: KYC and Improvement of Liquidity",
+				"date": "2019-05-29"
 			},
 			{
 				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
-				"date": "2019-05-16"
-			},
-			{
-				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
+				"h3": "Magic Circle makes first apprearance, Mr Qu decodes the secret behind security tokens",
 				"date": "2019-05-16"
 			}
 		]

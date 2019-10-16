@@ -7,7 +7,7 @@
     <meta name="renderer" content="webkit" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
-    <title>-1-contact-us</title>
+    <title>-1-news-copy</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="css/style.css" />
@@ -26,7 +26,7 @@
 					<ul>
 						<li 
 							v-for="(item,index) of content.header.nav"
-							:class="{'on': index == 4}"
+							:class="{'on': index == 3}"
 							:key="index"
 						>
 							<a class="v1" :href="item.link">{{ item.name }}</a>
@@ -55,43 +55,24 @@
 			</div>
 		</div>
 		<!-- 头部 -->
-		<div class="ban" style="background-image:url(images/ban-s1.png)"></div>
 		<!-- 内容 -->
 		<div class="main">
-			<div class="m-contact-s1">
-				<h2 class="tit" v-html="content.mContact.h2"></h2>
-				<form action="">
-					<div class="table">
-						<div class="tr">
-							<div class="item"><strong>{{ content.mContact.name }}</strong><input type="text"></div>
+			<div class="m-txt-s2">
+				<div class="wp">
+					<span class="g-label-s1">{{ content.mTxtS4.tip }}</span>
+					<h1 class="g-tit-s1">{{ content.mTxtS4.h1 }}</h1>
+						<div class="info"><em class="g-date-s1">{{ content.mTxtS4.date }}</em></div>
+						<div class="txt" v-html="content.mTxtS4.article">
 						</div>
-						<div class="tr">
-							<div class="item"><strong>{{ content.mContact.email }}</strong><input type="text"></div>
+						<div class="arrows">
+							<a href="-2-news-copy.html" class="prev">{{ content.mTxtS4.pages.prevTxt }}<i></i></a>
+							<a href="" class="next">{{ content.mTxtS4.pages.nextTxt }}<i></i></a>
 						</div>
-						<div class="tr">
-							<div class="item"><strong>{{ content.mContact.tel }}</strong><input type="text"></div>
-						</div>
-						<div class="tr">
-							<div class="item"><strong>{{ content.mContact.organ }}</strong><input type="text"></div>
-						</div>
-						<div class="tr s1">
-							<div class="item"><strong>{{ content.mContact.interest.tit }}</strong>
-								<div class="checkbox">
-									<label
-										v-for="(item,index) of content.mContact.interest.list"
-										:key="index"
-									><input type="checkbox"><span>{{ item }}</span></label>
-								</div>
-							</div>
-						</div>
-						<div class="tr">
-							<div class="item"><strong>{{ content.mContact.other }}</strong><textarea name="" id="" cols="30" rows="10"></textarea></div>
-						</div>
-						<div class="tr">
-							<div><input type="submit" :value="content.mContact.submit" class="sbm" @click="submitHandle"></div>
-						</div>
-					</div>
-				</form>
+						<!--            <div class="arrows">
+					<a href="" class="prev s1">Last article<i></i></a>
+					<a href="" class="next s1">Next<i></i></a>
+				</div> -->
+				</div>
 			</div>
 		</div>
 		<!-- 内容 -->
@@ -145,7 +126,5 @@
 		<!-- 底部 -->
 	</div>
 	<!-- 中英文切换代码 -->
-	<script src="js/contact.js"></script>
+	<script src="js/newsCopy.js"></script>
 </body>
-
-</html>
