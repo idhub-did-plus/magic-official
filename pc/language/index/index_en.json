@@ -29,7 +29,7 @@
 		],
 		"language": [
 			{
-				"name": "Cn"
+				"name": "中文"
 			},
 			{
 				"name": "En"
@@ -60,12 +60,12 @@
 				"link": "-1-contact-us.html"
 			},
 			{
-				"name": "BLOG",
+				"name": "Blog",
 				"link": "https://medium.com/magic-circle"
 			}
 		],
 		"links": {
-			"tit": "Contact us",
+			"tit": "Contact Us",
 			"desc": "Location: Hong Kong, Beijing, New York, Tokyo Email: contact@magic.exchange"
 		},
 		"contact": {
@@ -93,12 +93,12 @@
 	"bannerMore": "Learn more",
 	"mTxtS1": {
 		"txt1": {
-			"em": "why sto",
+			"em": "Why STO",
 			"tit": "Security<br />Token<br />Offering"
 		},
 		"txt2": {
 			"span": "STO",
-			"desc": "<p>Security tokens are egulated digital assets backed by real-life assets (e.g. stocks, bonds, real estate, art, private equity, or even cars).Via blockchain and smart contracts, features such as auto compliance, fractional ownership, free global explosure, and disintermediation are enabled to attain an incredible degree of liquidity.</p>"
+			"desc": "<p>Security tokens are regulated digital assets backed by real-life assets (e.g. stocks, bonds, real estate, art, private equity, or even cars).Via blockchain and smart contracts, features such as auto compliance, fractional ownership, free global explosure, and disintermediation are enabled to attain an incredible degree of liquidity.</p>"
 		}
 	},
 	"mVideoS1": {
@@ -139,7 +139,7 @@
 			},
 			{
 				"img": "images/h-7.png",
-				"h3": "Atlas Fund l"
+				"h3": "Atlas Fund I"
 			},
 			{
 				"img": "images/h-8.png",
@@ -175,28 +175,33 @@
 		"tit": "News",
 		"list": [
 			{
-				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
-				"date": "2019-05-16"
+				"img": "images/news-p03.jpg",
+				"h3": "Security tokens lead the global paradigm revolution, trillion future digital financial market is emerging",
+				"date": "2019-09-05"
+			},
+			{
+				"img": "images/news-p02.jpg",
+				"h3": "Qu Ming, Founder of IDHub: KYC and Improvement of Liquidity",
+				"date": "2019-05-29"
 			},
 			{
 				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
+				"h3": "Magic Circle makes first apprearance, Mr Qu decodes the secret behind security tokens",
 				"date": "2019-05-16"
 			},
 			{
-				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
-				"date": "2019-05-16"
+				"img": "images/news-p03.jpg",
+				"h3": "Security tokens lead the global paradigm revolution, trillion future digital financial market is emerging",
+				"date": "2019-09-05"
+			},
+			{
+				"img": "images/news-p02.jpg",
+				"h3": "Qu Ming, Founder of IDHub: KYC and Improvement of Liquidity",
+				"date": "2019-05-29"
 			},
 			{
 				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
-				"date": "2019-05-16"
-			},
-			{
-				"img": "images/news-p01.jpg",
-				"h3": "Magic Circle首次亮相，创始人曲明破译数字证券背后的密码",
+				"h3": "Magic Circle makes first apprearance, Mr Qu decodes the secret behind security tokens",
 				"date": "2019-05-16"
 			}
 		]
