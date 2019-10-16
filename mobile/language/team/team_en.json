@@ -109,7 +109,7 @@
 				"img2": "images/c_mt1.png",
 				"detail": {
 					"name": "Doer Qu",
-					"desc": "To design a future that is unpredictable and nobody bets on",
+					"desc": "",
 					"link": "https://www.linkedin.com/in/doer-qu-59a12852/"
 				}
 			},
@@ -153,7 +153,7 @@
 				"img2": "images/c_mt2.png",
 				"detail": {
 					"name": "Merida Pan",
-					"desc": "Be brave, take some risks, make some mistakes and then learn from them.",
+					"desc": "",
 					"link": "https://www.linkedin.com/in/merida-pan-982590126/"
 				}
 			},
@@ -164,7 +164,7 @@
 				"img2": "images/c_mt4.png",
 				"detail": {
 					"name": "Cecilia Wu",
-					"desc": "If we love one another, God lives in us, and His love is perfected in us.",
+					"desc": "",
 					"link": "www.linkedin.com/in/cecilia2019"
 				}
 			},
@@ -175,7 +175,7 @@
 				"img2": "images/c_mt5.png",
 				"detail": {
 					"name": "Derek Xue",
-					"desc": "Life is splendid due to incompleteness",
+					"desc": "",
 					"link": "https://www.linkedin.com/in/derek-xue-9b82b5100"
 				}
 			},
@@ -186,7 +186,7 @@
 				"img2": "images/c_mt10.jpg",
 				"detail": {
 					"name": "Michael Wang",
-					"desc": "It is not our abilities that show what we truly are,it is our choices between what is easy or right.",
+					"desc": "",
 					"link": "https://www.linkedin.com/in/%E6%B2%9B%E6%99%BA-%E7%8E%8B-56564582/"
 				}
 			},
@@ -197,18 +197,18 @@
 				"img2": "images/c_mt6.png",
 				"detail": {
 					"name": "Iris Xiang",
-					"desc": "Cleverness is a gift while kindness is a choice.",
+					"desc": "",
 					"link": "https://www.linkedin.com/in/doer-qu-59a12852/"
 				}
 			},
 			{
 				"img": "images/c_m7.png",
-				"name": "Zaakin",
+				"name": "Zaakin Yao",
 				"job": "Technology R&D",
 				"img2": "images/c_mt7.png",
 				"detail": {
-					"name": "Zaakin",
-					"desc": "Code is law",
+					"name": "Zaakin Yao",
+					"desc": "",
 					"link": "https://www.linkedin.com/in/%E6%B3%BD%E4%B9%BE-%E5%A7%9A-aaa865190/"
 				}
 			},
@@ -219,7 +219,7 @@
 				"img2": "images/c_mt8.png",
 				"detail": {
 					"name": "Christopher Liu",
-					"desc": "There is a crack in everything. That's how the light gets in",
+					"desc": "",
 					"link": "www.linkedin.com/in/yupeng-liu"
 				}
 			},
@@ -230,7 +230,7 @@
 				"img2": "images/c_mt9.png",
 				"detail": {
 					"name": "Jiaqi Li",
-					"desc": "I walked slowly, but I never retreat.",
+					"desc": "",
 					"link": "https://www.linkedin.com/in/%E5%98%89%E6%B7%87-%E6%9D%8E-266229189/"
 				}
 			}
