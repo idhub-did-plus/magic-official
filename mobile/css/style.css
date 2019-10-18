@@ -2900,3 +2900,15 @@ body{
 	}
 	
 }
+
+.banner .header-inner{
+	position: absolute;
+	top: 35px;
+	left: 0;
+	right: 0;
+	z-index: 5;
+}
+.banner .slogan{
+	font-size: 10px;
+	color: #fff;
+}

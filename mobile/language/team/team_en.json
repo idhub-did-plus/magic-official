@@ -125,10 +125,10 @@
 				}
 			},
 			{
-				"img": "images/c_m12.jpg",
+				"img": "images/c_m13.jpg",
 				"name": "Alex Martini",
 				"job": "Consultant",
-				"img2": "images/c_mt12.jpg",
+				"img2": "images/c_mt13.jpg",
 				"detail": {
 					"name": "Alex Martini",
 					"desc": "",
@@ -136,10 +136,10 @@
 				}
 			},
 			{
-				"img": "images/c_m13.jpg",
+				"img": "images/c_m12.jpg",
 				"name": "Gurpreet Oberoi",
 				"job": "Consultant",
-				"img2": "images/c_mt13.jpg",
+				"img2": "images/c_mt12.jpg",
 				"detail": {
 					"name": "Gurpreet Oberoi",
 					"desc": "",

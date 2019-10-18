@@ -3202,4 +3202,16 @@ input::-webkit-outer-spin-button {
 		margin: 0 0; 
 	}
 }
+.banner .header-inner{
+	position: absolute;
+	top: 65px;
+	left: 0;
+	right: 0;
+	z-index: 5;
+}
+.banner .slogan{
+	padding: 0 60px;
+	font-size: 14px;
+	color: #fff;
+}
 /* 191010 ÐÞ¸Ä end */
