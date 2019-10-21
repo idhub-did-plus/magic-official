@@ -3204,7 +3204,7 @@ input::-webkit-outer-spin-button {
 }
 .banner .header-inner{
 	position: absolute;
-	top: 65px;
+	top: 50px;
 	left: 0;
 	right: 0;
 	z-index: 5;
