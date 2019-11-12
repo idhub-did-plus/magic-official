@@ -94,7 +94,7 @@
 			},
 			{
 				"img": "images/r4.png",
-				"name": "Ben Wu",
+				"name": "Ben Ng",
 				"info": "Chief Financing Consultant"
 			}
 		]
@@ -115,11 +115,11 @@
 			},
 			{
 				"img": "images/c_m11.jpg",
-				"name": "Frenk Yuan",
+				"name": "Frank Yuan",
 				"job": "Financing Consultant",
 				"img2": "images/c_mt11.jpg",
 				"detail": {
-					"name": "Frenk Yuan",
+					"name": "Frank Yuan",
 					"desc": "",
 					"link": ""
 				}

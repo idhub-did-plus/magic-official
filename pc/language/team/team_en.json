@@ -94,7 +94,7 @@
 			},
 			{
 				"img": "images/r4.png",
-				"name": "Ben Wu",
+				"name": "Ben Ng",
 				"info": "Chief Financing Consultant"
 			}
 		]
@@ -115,11 +115,11 @@
 			},
 			{
 				"img": "images/c_m11.jpg",
-				"name": "Frenk Yuan",
+				"name": "Frank Yuan",
 				"job": "Financing Consultant",
 				"img2": "images/c_mt11.jpg",
 				"detail": {
-					"name": "Frenk Yuan",
+					"name": "Frank Yuan",
 					"desc": "",
 					"link": ""
 				}
@@ -136,10 +136,10 @@
 				}
 			},
 			{
-				"img": "images/c_m13.jpg",
+				"img": "images/c_m12.jpg",
 				"name": "Gurpreet Oberoi",
 				"job": "Consultant",
-				"img2": "images/c_mt13.jpg",
+				"img2": "images/c_mt12.jpg",
 				"detail": {
 					"name": "Gurpreet Oberoi",
 					"desc": "",
