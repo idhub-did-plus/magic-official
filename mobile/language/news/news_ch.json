@@ -85,6 +85,20 @@
 		],
 		"list": [
 			{
+				"link": "-5-news-copy.html",
+				"img": "images/news-p05-1.jpg",
+				 "tit": "加密金融行业资讯 I",
+				 "desc": "<p>加密金融行业资讯</p>",
+				 "date": "11 - 27"
+			},
+			{
+				"link": "-4-news-copy.html",
+				"img": "images/news-p04.jpg",
+				"tit": "开辟数字证券新航道，Magic Circle工作会议在沪正式召开",
+				"desc": "<p>11月12日-14日，创新型ST服务提供商Magic Circle在上海星动力科创空间正式召开工作会议</p>",
+				"date": "11 - 15"
+			},
+			{
 				"link": "-3-news-copy.html",
 				"img": "images/news-p03.jpg",
 				 "tit": "数字证券引领金融“范式革命” 未来万亿数字金融市场雏形初显",

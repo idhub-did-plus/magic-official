@@ -85,6 +85,20 @@
 		],
 		"list": [
 			{
+				"link": "-5-news-copy.html",
+				"img": "images/news-p05-1.jpg",
+				 "tit": "Crypto Finance Industry Information I",
+				 "desc": "<p>Crypto Finance Industry Information. </p>",
+				 "date": "11 - 27"
+			},
+			{
+				"link": "-4-news-copy.html",
+				"img": "images/news-p04.jpg",
+				 "tit": "Magic Circle Working Conference officially held in Shanghai",
+				 "desc": "<p>Magic Circle, the creative ST service provider officially held a working meeting in Shanghai Xingli Science and Technology Innovation Space from November 12th to 14th. </p>",
+				 "date": "11 - 15"
+			},
+			{
 				"link": "-3-news-copy.html",
 				"img": "images/news-p03.jpg",
 				 "tit": "Security tokens lead the global paradigm revolution, trillion future digital financial market is emerging",
